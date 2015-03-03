@@ -1,0 +1,280 @@
+2015-01-07 21:07:01  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-01-07 21:07:01  [ main:8 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-01-07 21:07:01  [ main:39 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-01-07 21:07:01  [ main:42 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-01-07 21:07:01  [ main:42 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-01-07 21:07:01  [ main:43 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-01-07 21:07:01  [ main:44 ] - [ DEBUG ]  Platform: Windows
+2015-01-07 21:07:01  [ main:45 ] - [ DEBUG ]  Java version: 7
+2015-01-07 21:07:01  [ main:45 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-01-07 21:07:01  [ main:45 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-01-07 21:07:01  [ main:46 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-01-07 21:07:01  [ main:48 ] - [ DEBUG ]  Javassist: unavailable
+2015-01-07 21:07:01  [ main:48 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-01-07 21:07:01  [ main:48 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-01-07 21:07:01  [ main:49 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-01-07 21:07:01  [ main:49 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-01-07 21:07:01  [ main:126 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-01-07 21:07:01  [ main:127 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-01-07 21:07:01  [ main:223 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xc288a7832eee4092 (took 20 ms)
+2015-01-07 21:07:01  [ main:276 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-01-07 21:07:01  [ main:277 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:326 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:345 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:415 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:415 ] - [ INFO ]  Client :Receiving a byte : 1
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:433 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:434 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:434 ] - [ INFO ]  Client :Receiving a byte : 3
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:434 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:434 ] - [ INFO ]  Client :Receiving a byte : 5
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:435 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:435 ] - [ INFO ]  Client :Receiving a byte : 7
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:435 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:435 ] - [ INFO ]  Client :Receiving a byte : 9
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:436 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:436 ] - [ INFO ]  Client :Receiving a byte : 11
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:436 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:436 ] - [ INFO ]  Client :Receiving a byte : 13
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:437 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:437 ] - [ INFO ]  Client :Receiving a byte : 15
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:437 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:437 ] - [ INFO ]  Client :Receiving a byte : 17
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:438 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:438 ] - [ INFO ]  Client :Receiving a byte : 19
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:438 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:438 ] - [ INFO ]  Client :Receiving a byte : 21
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:439 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:439 ] - [ INFO ]  Client :Receiving a byte : 23
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:439 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:439 ] - [ INFO ]  Client :Receiving a byte : 25
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:440 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:440 ] - [ INFO ]  Client :Receiving a byte : 27
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:440 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:440 ] - [ INFO ]  Client :Receiving a byte : 29
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:441 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:441 ] - [ INFO ]  Client :Receiving a byte : 31
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:441 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:441 ] - [ INFO ]  Client :Receiving a byte : 33
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:442 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:442 ] - [ INFO ]  Client :Receiving a byte : 35
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:443 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:443 ] - [ INFO ]  Client :Receiving a byte : 37
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:445 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:445 ] - [ INFO ]  Client :Receiving a byte : 39
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:446 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:446 ] - [ INFO ]  Client :Receiving a byte : 41
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:446 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:446 ] - [ INFO ]  Client :Receiving a byte : 43
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:447 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:447 ] - [ INFO ]  Client :Receiving a byte : 45
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:447 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:448 ] - [ INFO ]  Client :Receiving a byte : 47
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:448 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:448 ] - [ INFO ]  Client :Receiving a byte : 49
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:448 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:449 ] - [ INFO ]  Client :Receiving a byte : 51
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:449 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:449 ] - [ INFO ]  Client :Receiving a byte : 53
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:456 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:457 ] - [ INFO ]  Client :Receiving a byte : 55
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:457 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:457 ] - [ INFO ]  Client :Receiving a byte : 57
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:458 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:458 ] - [ INFO ]  Client :Receiving a byte : 59
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:458 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:459 ] - [ INFO ]  Client :Receiving a byte : 61
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:459 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:459 ] - [ INFO ]  Client :Receiving a byte : 63
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:460 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:460 ] - [ INFO ]  Client :Receiving a byte : 65
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:460 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:460 ] - [ INFO ]  Client :Receiving a byte : 67
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:461 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:461 ] - [ INFO ]  Client :Receiving a byte : 69
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:461 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:462 ] - [ INFO ]  Client :Receiving a byte : 71
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:462 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:462 ] - [ INFO ]  Client :Receiving a byte : 73
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:463 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:463 ] - [ INFO ]  Client :Receiving a byte : 75
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:463 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:463 ] - [ INFO ]  Client :Receiving a byte : 77
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:464 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:464 ] - [ INFO ]  Client :Receiving a byte : 79
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:465 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:465 ] - [ INFO ]  Client :Receiving a byte : 81
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:465 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:465 ] - [ INFO ]  Client :Receiving a byte : 83
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:466 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:466 ] - [ INFO ]  Client :Receiving a byte : 85
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:470 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:471 ] - [ INFO ]  Client :Receiving a byte : 87
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:471 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:472 ] - [ INFO ]  Client :Receiving a byte : 89
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:472 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:472 ] - [ INFO ]  Client :Receiving a byte : 91
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:473 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:473 ] - [ INFO ]  Client :Receiving a byte : 93
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:474 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:474 ] - [ INFO ]  Client :Receiving a byte : 95
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:475 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:475 ] - [ INFO ]  Client :Receiving a byte : 97
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:475 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:476 ] - [ INFO ]  Client :Receiving a byte : 99
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:476 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:476 ] - [ INFO ]  Client :Receiving a byte : 101
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:477 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:477 ] - [ INFO ]  Client :Receiving a byte : 103
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:478 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:478 ] - [ INFO ]  Client :Receiving a byte : 105
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:478 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:478 ] - [ INFO ]  Client :Receiving a byte : 107
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:479 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:479 ] - [ INFO ]  Client :Receiving a byte : 109
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:480 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:480 ] - [ INFO ]  Client :Receiving a byte : 111
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:480 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:480 ] - [ INFO ]  Client :Receiving a byte : 113
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:481 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:481 ] - [ INFO ]  Client :Receiving a byte : 115
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:482 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:487 ] - [ INFO ]  Client :Receiving a byte : 117
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:488 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:488 ] - [ INFO ]  Client :Receiving a byte : 119
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:489 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:489 ] - [ INFO ]  Client :Receiving a byte : 121
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:489 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:489 ] - [ INFO ]  Client :Receiving a byte : 123
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:490 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:490 ] - [ INFO ]  Client :Receiving a byte : 125
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:491 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:491 ] - [ INFO ]  Client :Receiving a byte : 127
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:491 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:492 ] - [ INFO ]  Client :Receiving a byte : -127
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:492 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:492 ] - [ INFO ]  Client :Receiving a byte : -125
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:493 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:493 ] - [ INFO ]  Client :Receiving a byte : -123
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:494 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:494 ] - [ INFO ]  Client :Receiving a byte : -121
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:494 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:495 ] - [ INFO ]  Client :Receiving a byte : -119
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:495 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:495 ] - [ INFO ]  Client :Receiving a byte : -117
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:496 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:496 ] - [ INFO ]  Client :Receiving a byte : -115
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:496 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:496 ] - [ INFO ]  Client :Receiving a byte : -113
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:497 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:497 ] - [ INFO ]  Client :Receiving a byte : -111
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:497 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:498 ] - [ INFO ]  Client :Receiving a byte : -109
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:498 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:498 ] - [ INFO ]  Client :Receiving a byte : -107
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:499 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:499 ] - [ INFO ]  Client :Receiving a byte : -105
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:499 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:500 ] - [ INFO ]  Client :Receiving a byte : -103
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:500 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:500 ] - [ INFO ]  Client :Receiving a byte : -101
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:501 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:501 ] - [ INFO ]  Client :Receiving a byte : -99
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:501 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:502 ] - [ INFO ]  Client :Receiving a byte : -97
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:502 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:502 ] - [ INFO ]  Client :Receiving a byte : -95
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:503 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:503 ] - [ INFO ]  Client :Receiving a byte : -93
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:503 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:504 ] - [ INFO ]  Client :Receiving a byte : -91
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:505 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:505 ] - [ INFO ]  Client :Receiving a byte : -89
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:506 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:506 ] - [ INFO ]  Client :Receiving a byte : -87
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:506 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:506 ] - [ INFO ]  Client :Receiving a byte : -85
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:506 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:507 ] - [ INFO ]  Client :Receiving a byte : -83
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:507 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:507 ] - [ INFO ]  Client :Receiving a byte : -81
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:507 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:508 ] - [ INFO ]  Client :Receiving a byte : -79
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:508 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:508 ] - [ INFO ]  Client :Receiving a byte : -77
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:508 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:508 ] - [ INFO ]  Client :Receiving a byte : -75
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:509 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:509 ] - [ INFO ]  Client :Receiving a byte : -73
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:510 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:510 ] - [ INFO ]  Client :Receiving a byte : -71
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:510 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:510 ] - [ INFO ]  Client :Receiving a byte : -69
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:511 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:511 ] - [ INFO ]  Client :Receiving a byte : -67
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:511 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:511 ] - [ INFO ]  Client :Receiving a byte : -65
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:512 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:512 ] - [ INFO ]  Client :Receiving a byte : -63
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:512 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:512 ] - [ INFO ]  Client :Receiving a byte : -61
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:513 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:513 ] - [ INFO ]  Client :Receiving a byte : -59
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:513 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:513 ] - [ INFO ]  Client :Receiving a byte : -57
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:514 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:514 ] - [ INFO ]  Client :Receiving a byte : -55
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:514 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:515 ] - [ INFO ]  Client :Receiving a byte : -53
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:515 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:515 ] - [ INFO ]  Client :Receiving a byte : -51
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:516 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:516 ] - [ INFO ]  Client :Receiving a byte : -49
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:516 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:516 ] - [ INFO ]  Client :Receiving a byte : -47
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:517 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:517 ] - [ INFO ]  Client :Receiving a byte : -45
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:518 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:518 ] - [ INFO ]  Client :Receiving a byte : -43
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:518 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:518 ] - [ INFO ]  Client :Receiving a byte : -41
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:519 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:519 ] - [ INFO ]  Client :Receiving a byte : -39
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:520 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:520 ] - [ INFO ]  Client :Receiving a byte : -37
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:522 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:522 ] - [ INFO ]  Client :Receiving a byte : -35
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:523 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:523 ] - [ INFO ]  Client :Receiving a byte : -33
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:524 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:524 ] - [ INFO ]  Client :Receiving a byte : -31
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:524 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:525 ] - [ INFO ]  Client :Receiving a byte : -29
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:525 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:525 ] - [ INFO ]  Client :Receiving a byte : -27
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:526 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:526 ] - [ INFO ]  Client :Receiving a byte : -25
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:527 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:527 ] - [ INFO ]  Client :Receiving a byte : -23
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:527 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:527 ] - [ INFO ]  Client :Receiving a byte : -21
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:528 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:528 ] - [ INFO ]  Client :Receiving a byte : -19
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:529 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:529 ] - [ INFO ]  Client :Receiving a byte : -17
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:529 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:529 ] - [ INFO ]  Client :Receiving a byte : -15
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:530 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:530 ] - [ INFO ]  Client :Receiving a byte : -13
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:531 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:531 ] - [ INFO ]  Client :Receiving a byte : -11
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:531 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:531 ] - [ INFO ]  Client :Receiving a byte : -9
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:532 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:532 ] - [ INFO ]  Client :Receiving a byte : -7
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:533 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:533 ] - [ INFO ]  Client :Receiving a byte : -5
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:533 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:534 ] - [ INFO ]  Client :Receiving a byte : -3
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:534 ] - [ INFO ]  Client: Msg is incoming!
+2015-01-07 21:07:01  [ nioEventLoopGroup-2-1:534 ] - [ INFO ]  Client :Receiving a byte : -1
