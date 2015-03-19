@@ -5077,6 +5077,15 @@ public final class IMProto {
      */
     com.google.protobuf.ByteString
         getMsgIdBytes();
+
+    /**
+     * <code>optional int64 rec_time = 3;</code>
+     */
+    boolean hasRecTime();
+    /**
+     * <code>optional int64 rec_time = 3;</code>
+     */
+    long getRecTime();
   }
   /**
    * Protobuf type {@code cn.david.ChatAckMsg}
@@ -5139,6 +5148,11 @@ public final class IMProto {
               com.google.protobuf.ByteString bs = input.readBytes();
               bitField0_ |= 0x00000002;
               msgId_ = bs;
+              break;
+            }
+            case 24: {
+              bitField0_ |= 0x00000004;
+              recTime_ = input.readInt64();
               break;
             }
           }
@@ -5238,9 +5252,25 @@ public final class IMProto {
       }
     }
 
+    public static final int REC_TIME_FIELD_NUMBER = 3;
+    private long recTime_;
+    /**
+     * <code>optional int64 rec_time = 3;</code>
+     */
+    public boolean hasRecTime() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional int64 rec_time = 3;</code>
+     */
+    public long getRecTime() {
+      return recTime_;
+    }
+
     private void initFields() {
       responseCode_ = 0;
       msgId_ = "";
+      recTime_ = 0L;
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -5261,6 +5291,9 @@ public final class IMProto {
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
         output.writeBytes(2, getMsgIdBytes());
       }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeInt64(3, recTime_);
+      }
       getUnknownFields().writeTo(output);
     }
 
@@ -5277,6 +5310,10 @@ public final class IMProto {
       if (((bitField0_ & 0x00000002) == 0x00000002)) {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(2, getMsgIdBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt64Size(3, recTime_);
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -5399,6 +5436,8 @@ public final class IMProto {
         bitField0_ = (bitField0_ & ~0x00000001);
         msgId_ = "";
         bitField0_ = (bitField0_ & ~0x00000002);
+        recTime_ = 0L;
+        bitField0_ = (bitField0_ & ~0x00000004);
         return this;
       }
 
@@ -5435,6 +5474,10 @@ public final class IMProto {
           to_bitField0_ |= 0x00000002;
         }
         result.msgId_ = msgId_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.recTime_ = recTime_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -5458,6 +5501,9 @@ public final class IMProto {
           bitField0_ |= 0x00000002;
           msgId_ = other.msgId_;
           onChanged();
+        }
+        if (other.hasRecTime()) {
+          setRecTime(other.getRecTime());
         }
         this.mergeUnknownFields(other.getUnknownFields());
         return this;
@@ -5590,6 +5636,38 @@ public final class IMProto {
   }
   bitField0_ |= 0x00000002;
         msgId_ = value;
+        onChanged();
+        return this;
+      }
+
+      private long recTime_ ;
+      /**
+       * <code>optional int64 rec_time = 3;</code>
+       */
+      public boolean hasRecTime() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional int64 rec_time = 3;</code>
+       */
+      public long getRecTime() {
+        return recTime_;
+      }
+      /**
+       * <code>optional int64 rec_time = 3;</code>
+       */
+      public Builder setRecTime(long value) {
+        bitField0_ |= 0x00000004;
+        recTime_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int64 rec_time = 3;</code>
+       */
+      public Builder clearRecTime() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        recTime_ = 0L;
         onChanged();
         return this;
       }
@@ -8666,19 +8744,19 @@ public final class IMProto {
       "\022\017\n\007user_id\030\001 \001(\005\022\020\n\010username\030\002 \001(\t\022\020\n\010p" +
       "assword\030\003 \001(\t\022\016\n\006msg_id\030\004 \001(\t\"P\n\006AckMsg\022" +
       "\020\n\010ack_type\030\001 \001(\005\022\025\n\rresponse_code\030\002 \001(\005" +
-      "\022\016\n\006msg_id\030\003 \001(\t\022\r\n\005token\030\004 \001(\t\"3\n\nChatA" +
+      "\022\016\n\006msg_id\030\003 \001(\t\022\r\n\005token\030\004 \001(\t\"E\n\nChatA" +
       "ckMsg\022\025\n\rresponse_code\030\001 \001(\005\022\016\n\006msg_id\030\002" +
-      " \001(\t\"?\n\rAskOfflineMsg\022\017\n\007user_id\030\001 \001(\005\022\r" +
-      "\n\005token\030\002 \001(\t\022\016\n\006msg_id\030\003 \001(\t\"o\n\tAskLocM" +
-      "sg\022\023\n\013user_id_src\030\001 \001(\005\022\024\n\014user_id_desc\030" +
-      "\002 \001(\005\022\r\n\005token\030\003 \001(\t\022\016\n\006msg_id\030\004 \001(\t\022\030\n\r",
-      "location_type\030\005 \001(\005:\0010\"\313\001\n\014AskLocAckMsg\022" +
-      "\023\n\013user_id_src\030\001 \001(\005\022\024\n\014user_id_desc\030\002 \001" +
-      "(\005\022\r\n\005token\030\003 \001(\t\022\016\n\006msg_id\030\004 \001(\t\022\030\n\rloc" +
-      "ation_type\030\005 \001(\005:\0010\022\021\n\tlongitude\030\006 \001(\001\022\020" +
-      "\n\010latitude\030\007 \001(\001\022\016\n\006map_id\030\010 \001(\t\022\r\n\005floo" +
-      "r\030\t \001(\t\022\023\n\013update_time\030\n \001(\003B\032\n\017cn.david" +
-      ".domainB\007IMProto"
+      " \001(\t\022\020\n\010rec_time\030\003 \001(\003\"?\n\rAskOfflineMsg\022" +
+      "\017\n\007user_id\030\001 \001(\005\022\r\n\005token\030\002 \001(\t\022\016\n\006msg_i" +
+      "d\030\003 \001(\t\"o\n\tAskLocMsg\022\023\n\013user_id_src\030\001 \001(" +
+      "\005\022\024\n\014user_id_desc\030\002 \001(\005\022\r\n\005token\030\003 \001(\t\022\016",
+      "\n\006msg_id\030\004 \001(\t\022\030\n\rlocation_type\030\005 \001(\005:\0010" +
+      "\"\313\001\n\014AskLocAckMsg\022\023\n\013user_id_src\030\001 \001(\005\022\024" +
+      "\n\014user_id_desc\030\002 \001(\005\022\r\n\005token\030\003 \001(\t\022\016\n\006m" +
+      "sg_id\030\004 \001(\t\022\030\n\rlocation_type\030\005 \001(\005:\0010\022\021\n" +
+      "\tlongitude\030\006 \001(\001\022\020\n\010latitude\030\007 \001(\001\022\016\n\006ma" +
+      "p_id\030\010 \001(\t\022\r\n\005floor\030\t \001(\t\022\023\n\013update_time" +
+      "\030\n \001(\003B\032\n\017cn.david.domainB\007IMProto"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -8727,7 +8805,7 @@ public final class IMProto {
     internal_static_cn_david_ChatAckMsg_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_cn_david_ChatAckMsg_descriptor,
-        new java.lang.String[] { "ResponseCode", "MsgId", });
+        new java.lang.String[] { "ResponseCode", "MsgId", "RecTime", });
     internal_static_cn_david_AskOfflineMsg_descriptor =
       getDescriptor().getMessageTypes().get(6);
     internal_static_cn_david_AskOfflineMsg_fieldAccessorTable = new

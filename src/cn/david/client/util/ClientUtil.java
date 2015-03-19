@@ -15,11 +15,14 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
@@ -60,6 +63,11 @@ public class ClientUtil {
 	private static Bootstrap b;
 	private static Logger logger = Logger.getLogger(ClientUtil.class);
 	public static final Map<String,WriteFuture<AckResponse>> syncWriteMsgs = new ConcurrentHashMap<String,WriteFuture<AckResponse>>();
+	public static final Map<String,Long> chatMsgs = new ConcurrentHashMap<String, Long>();
+	public static final ConcurrentLinkedQueue<Integer> serverReplyPeriods = new ConcurrentLinkedQueue<Integer>();
+	public static final ConcurrentLinkedQueue<Integer> userReplyPeriods = new ConcurrentLinkedQueue<Integer>();
+	
+	public static String token = "";
 	
 	/**
 	 * 
@@ -182,10 +190,14 @@ public class ClientUtil {
 			.setContent(content)
 			.setMsgId(msgId)
 			.setToken(token)
-			.setSendTime(System.currentTimeMillis()/1000).build();
+			.setSendTime(System.currentTimeMillis()).build();
+		//客户端发送的时间从s值改为ms值
 		ServerMsg msg = new ServerMsg();
 		msg.setMsgType(MsgType.CHAT);
 		msg.setProtoMsgContent(chatMsg);
+		//这里应该将发送时间和msgId存入发送消息中
+		
+		ClientUtil.chatMsgs.put(chatMsg.getMsgId(), chatMsg.getSendTime());
 		if(channel == null) {
 			throw new RuntimeException("can't connect to the server");
 		}

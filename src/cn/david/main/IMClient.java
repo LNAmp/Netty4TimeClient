@@ -97,11 +97,9 @@ public class IMClient {
 		try {
 			response = ClientUtil.syncWriteMsg(loginMsg, 1000);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println(response);
-		
 		String token = response.getToken();
 		
 //		String content = "hello,this is the first test!";
