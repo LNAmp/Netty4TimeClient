@@ -1,5 +1,6 @@
 package cn.david.handler;
 
+import java.net.SocketTimeoutException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
@@ -8,6 +9,8 @@ import org.apache.log4j.Logger;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.channel.ChannelPipeline;
+import io.netty.handler.timeout.IdleStateHandler;
 import cn.david.android.client.Connection;
 import cn.david.android.client.MsgCollector;
 import cn.david.android.client.Connection.ListenerWrapper;
@@ -20,6 +23,7 @@ import cn.david.domain.IMProto.UploadLocMsg;
 import cn.david.domain.AckResponse;
 import cn.david.domain.AckType;
 import cn.david.domain.ChatType;
+import cn.david.domain.IdleStateConstant;
 import cn.david.domain.MsgType;
 import cn.david.domain.ReceiveMsg;
 import cn.david.domain.ServerMsg;
@@ -64,7 +68,7 @@ public class ClientMsgHandler extends ChannelInboundHandlerAdapter {
 		this.connection = connection;
 	}
 
-	//	private static int pongCount = 0;
+	//private static int pongCount = 5;
 //	//这种做法不是特别好，是临时的
 //	private MessageLite msg;
 	@Override
@@ -74,7 +78,7 @@ public class ClientMsgHandler extends ChannelInboundHandlerAdapter {
 		if(msg instanceof String) {
 			if(MsgType.PING.equals((String)msg)) {
 				logger.info("At time : "+ DateUtil.printCurTime() +" ,recevie the PING.");
-//				if(pongCount == 1) {
+//				if(pongCount == 5) {
 //					return;
 //				}
 				ServerMsg msg1 = new ServerMsg();
@@ -83,6 +87,8 @@ public class ClientMsgHandler extends ChannelInboundHandlerAdapter {
 				//pongCount++;
 				ctx.writeAndFlush(msg1);
 				return;
+			}else if(MsgType.PONG.equals((String)msg)) {
+				System.out.println(msg);
 			}
 			//System.out.println(msg);
 		} else if(msg instanceof UploadLocMsg) {
@@ -254,7 +260,13 @@ public class ClientMsgHandler extends ChannelInboundHandlerAdapter {
 	@Override
 	public void channelActive(ChannelHandlerContext ctx) throws Exception {
 		// TODO Auto-generated method stub
-		logger.info("channelActive");
+		logger.info("the channelActive in IMServerMsgHandler is called");
+
+		ChannelPipeline pipeline = ctx.pipeline();
+		pipeline.addAfter("protobufEncoder", "idleStateHandler", new IdleStateHandler(
+				IdleStateConstant.READER_IDLE_TIME, IdleStateConstant.WRITER_IDLE_TIME, IdleStateConstant.ALL_IDLE_TIME));
+		pipeline.addAfter("idleStateHandler", "HeartbeatCheckHandler", new HeartbeatCheckHandler());
+		
 		super.channelActive(ctx);
 	}
 	@Override
@@ -287,6 +299,10 @@ public class ClientMsgHandler extends ChannelInboundHandlerAdapter {
 			throws Exception {
 		// TODO Auto-generated method stub
 		logger.info("exceptionCaught");
+		if(cause instanceof SocketTimeoutException) {
+			logger.info("Ready to close the conn,reason:TIME_OUT");
+			connection.disconnect();
+		}
 		super.exceptionCaught(ctx, cause);
 	}
 	@Override
