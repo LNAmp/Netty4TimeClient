@@ -20,11 +20,14 @@ public class IMClient {
 	 */
 	public static void main(String[] args) {
 		ClientUtil.initBootstrap();
+		//ClientUtil.loginMembers(1500, 1500);
 		try {
 			ClientUtil.connectServer(null);
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+			System.out.println("error cause");
+			e.printStackTrace();  
 		}
+		ClientUtil.writeMsg();
 //		String msgId = UUID.randomUUID().toString();
 //		ClientUtil.registerAccount("david", "qinqinhaiou", "aaaaaa@a.com", msgId);
 //		while(true) {
@@ -84,24 +87,28 @@ public class IMClient {
 //		String askMsgId = userBId + UUID.randomUUID().toString();
 //		ClientUtil.askOfflineMsg(userBId, token, askMsgId);
 		
-		String msgId = UUID.randomUUID().toString();
-		String username = "david";
-		String password = "qinqinhaiou";
-		LoginMsg.Builder builder = LoginMsg.newBuilder();
-		builder.setMsgId(msgId);
-		builder.setUsername(username);
-		builder.setPassword(password);
-		LoginMsg loginMsg = builder.build();
-		//unit is millisecond
-		AckResponse response = null;
-		try {
-			response = ClientUtil.syncWriteMsg(loginMsg, 1000);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		System.out.println(response);
-		String token = response.getToken();
-		
+		//用户yiqian登录
+//		String msgId = UUID.randomUUID().toString();
+//		String username = "yiqian";
+//		String password = "qinqinhaiou";
+//		LoginMsg.Builder builder = LoginMsg.newBuilder();
+//		builder.setMsgId(msgId);
+//		builder.setUsername(username);
+//		builder.setPassword(password);
+//		LoginMsg loginMsg = builder.build();
+//		//unit is millisecond
+//		AckResponse response = null;
+//		try {
+//			response = ClientUtil.syncWriteMsg(loginMsg, 1000);
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//		System.out.println("the response is "+response);
+//		String token = response.getToken();
+//		ClientUtil.token = token;
+		//暂时不需要开启存数的线程
+		//接受消息者
+		//暂时去掉响应
 //		String content = "hello,this is the first test!";
 //		int userId = 1;
 //		String chatMsgId = userId + UUID.randomUUID().toString();
@@ -111,24 +118,24 @@ public class IMClient {
 //		ClientUtil.sendChatMsg(1, 2, ChatType.TEXT, content, token, chatMsgId);
 		
 		//上传位置
-		int userId = 2;
-		String locMsgId = userId + "_" + UUID.randomUUID().toString();
-		int locationType = LocationType.INDOOR;
-		double longitude = 122.08;
-		double latitude = 28.99;
-		String mapId = "FF4";
-		String floor = "2";
-		long updateTime = System.currentTimeMillis();
+//		int userId = 2;
+//		String locMsgId = userId + "_" + UUID.randomUUID().toString();
+//		int locationType = LocationType.INDOOR;
+//		double longitude = 122.08;
+//		double latitude = 28.99;
+//		String mapId = "FF4";
+//		String floor = "2";
+//		long updateTime = System.currentTimeMillis();
 		
 		
-		
+		//获取位置
 		//ClientUtil.uploadLoc(userId, token, locMsgId, locationType, longitude, latitude, mapId, floor, updateTime);
 		//System.out.println("uploadLoc...");
-		int userIdSrc = 1;
-		int userIdDesc = 2;
-		String askLocMsgId = userIdSrc + "_" + UUID.randomUUID().toString();
-		ClientUtil.askLoc(userIdSrc, userIdDesc, token, askLocMsgId, locationType);
-		System.out.println("askLoc......");
+//		int userIdSrc = 1;
+//		int userIdDesc = 2;
+//		String askLocMsgId = userIdSrc + "_" + UUID.randomUUID().toString();
+//		ClientUtil.askLoc(userIdSrc, userIdDesc, token, askLocMsgId, locationType);
+//		System.out.println("askLoc......");
 		
 		
 		

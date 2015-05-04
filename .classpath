@@ -2,10 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="lib/netty-all-4.0.25.Final.jar" sourcepath="D:/F_DISK_BACK/software/netty-4.0.25.Final/netty-4.0.25.Final/jar/all-in-one/netty-all-4.0.25.Final-sources.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="lib/protobuf-java-2.5.0.jar" sourcepath="D:/F_DISK_BACK/software/protobuf-2.6.0-src"/>
+	<classpathentry kind="lib" path="lib/netty-all-4.0.25.Final.jar" sourcepath="D:/java-jar or source/netty-4.0.25.Final/netty-4.0.25.Final/jar/all-in-one/netty-all-4.0.25.Final-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/java-jar or source/netty-4.0.25.Final/netty-4.0.25.Final/javadoc/netty-all-4.0.25.Final-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

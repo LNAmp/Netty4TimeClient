@@ -4,42 +4,30 @@ import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
-import io.netty.channel.ChannelPipeline;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
-import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 import org.apache.log4j.Logger;
 
-import com.google.protobuf.MessageLite;
-
+import cn.david.domain.AckCode;
 import cn.david.domain.AckResponse;
-import cn.david.domain.AddressBookProtos;
-import cn.david.domain.ChatType;
 import cn.david.domain.LocationType;
 import cn.david.domain.MsgType;
 import cn.david.domain.ServerMsg;
-import cn.david.domain.AddressBookProtos.AddressBook;
-import cn.david.domain.AddressBookProtos.Person;
 import cn.david.domain.IMProto.AskLocMsg;
 import cn.david.domain.IMProto.AskOfflineMsg;
 import cn.david.domain.IMProto.ChatMsg;
@@ -48,19 +36,19 @@ import cn.david.domain.IMProto.RegisterMsg;
 import cn.david.domain.IMProto.UploadLocMsg;
 import cn.david.future.SyncWriteFuture;
 import cn.david.future.WriteFuture;
-import cn.david.handler.ClientInitializer;
 import cn.david.handler.IMServerInitializer;
 import cn.david.login.LoginFactory;
-import cn.david.main.EchoClientHandler;
 import cn.david.register.RegisterFactory;
 import cn.david.register.RegisterState;
+
+import com.google.protobuf.MessageLite;
 
 public class ClientUtil {
 	private static String serverIp;
 	private static int serverPort;
 	private static ChannelFuture channelFuture;
 	private static Channel channel = null;
-	private static Bootstrap b;
+	public static Bootstrap b;
 	private static Logger logger = Logger.getLogger(ClientUtil.class);
 	public static final Map<String,WriteFuture<AckResponse>> syncWriteMsgs = new ConcurrentHashMap<String,WriteFuture<AckResponse>>();
 	public static final Map<String,Long> chatMsgs = new ConcurrentHashMap<String, Long>();
@@ -68,6 +56,102 @@ public class ClientUtil {
 	public static final ConcurrentLinkedQueue<Integer> userReplyPeriods = new ConcurrentLinkedQueue<Integer>();
 	
 	public static String token = "";
+	
+	private static int failTimes = 0;
+	
+	public static AckResponse syncWriteMsg(final MessageLite msg, final long timeout,Channel channel) throws InterruptedException, ExecutionException, TimeoutException {
+		if(channel == null) {
+			throw new RuntimeException("can't connect to the server");
+		}
+		if(msg == null) {
+			throw new NullPointerException("msg is null");
+		}
+		if(timeout <= 0) {
+			throw new IllegalArgumentException("the timeout can't be negative!");
+		}
+		if(msg instanceof RegisterMsg) {
+			RegisterMsg reMsg = (RegisterMsg) msg;
+			WriteFuture<AckResponse> future = new SyncWriteFuture(reMsg.getMsgId());
+			syncWriteMsgs.put(reMsg.getMsgId(), future);
+			
+			AckResponse response = _doSyncWriteMsg(channel,MsgType.REGISTER,msg,timeout,future,reMsg.getMsgId());
+			syncWriteMsgs.remove(reMsg.getMsgId());
+			return response;
+		} else if(msg instanceof LoginMsg) {
+			LoginMsg loginMsg = (LoginMsg) msg;
+			WriteFuture<AckResponse> future = new SyncWriteFuture(loginMsg.getMsgId());
+			syncWriteMsgs.put(loginMsg.getMsgId(), future);
+			
+			AckResponse response = _doSyncWriteMsg(channel,MsgType.LOGIN,msg,timeout,future,loginMsg.getMsgId());
+			syncWriteMsgs.remove(loginMsg.getMsgId());
+			return response;
+		}
+		return null;
+	}
+	
+	private static AckResponse _doSyncWriteMsg(Channel channel,final String type,final MessageLite msg,final long timeout,
+			final WriteFuture<AckResponse> writeFuture,final String msgId) throws InterruptedException, ExecutionException, TimeoutException {
+		ServerMsg serverMsg = new ServerMsg();
+		serverMsg.setMsgType(type);
+		serverMsg.setProtoMsgContent(msg);
+		channel.writeAndFlush(serverMsg).addListener(new ChannelFutureListener() {
+			
+			@Override
+			public void operationComplete(ChannelFuture future) throws Exception {
+				writeFuture.setWriteResult(future.isSuccess());
+				writeFuture.setCause(future.cause());
+				if(!writeFuture.isWriteSuccess()) {
+					syncWriteMsgs.remove(msgId);
+				}
+			}
+		});
+		AckResponse response = writeFuture.get(timeout, TimeUnit.MILLISECONDS);
+		return response;
+	}
+	
+	public static void loginMembers(int startId,int num)  {
+		//登录一千个用户，保存其token
+		
+		int i = startId;
+		int end = num+startId;
+		while(i<end) {
+			ChannelFuture future = b.connect(ClientUtil.serverIp, ClientUtil.serverPort);
+			try {
+				future.sync();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			if(future.isSuccess()&&future.isDone()) {
+				Channel channel = future.channel();
+				if(channel==null) {
+					throw new RuntimeException("the channel is null!");
+				}
+				String msgId = UUID.randomUUID().toString();
+				String username = "david"+(i-3);
+				String password = "qinqinhaiou";
+				LoginMsg.Builder builder = LoginMsg.newBuilder();
+				builder.setMsgId(msgId);
+				builder.setUsername(username);
+				builder.setPassword(password);
+				LoginMsg loginMsg = builder.build();
+				//unit is millisecond
+				AckResponse response = null;
+				try {
+					response = ClientUtil.syncWriteMsg(loginMsg, 1000,channel);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				if(response != null && (response.getResponseCode()==AckCode.LOGIN_SUCCESS)) {
+					logger.info((i-2)+" users has logined!");
+					i++;
+				}
+				
+			}else {
+				failTimes ++;
+				logger.info(failTimes+" times connections has failed!");
+			}
+		}
+	}
 	
 	/**
 	 * 
@@ -101,13 +185,22 @@ public class ClientUtil {
 	}
 	
 	public static ChannelFuture connectServer(ChannelFutureListener listener ) throws InterruptedException {
-		channelFuture = b.connect(serverIp, serverPort);
-		if( listener != null) {
-			channelFuture.addListener(listener);
-		} else {
-			channelFuture.sync();
+		//ChannelFuture channelFuture = null;
+		try {
+			channelFuture = b.connect(serverIp, serverPort).sync();
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e);
+			System.out.println(e.getCause());
 		}
-		channel = channelFuture.channel();
+		if(channelFuture == null) {
+			System.out.println("isNull");
+		}else {
+//			System.out.println("cancle:"+channelFuture.isCancelled()+
+//					"done:"+channelFuture.isDone()+"success:"+channelFuture.isSuccess()+
+//					"cause"+channelFuture.cause().getCause()+"causeMsg"+channelFuture.cause().getMessage());
+		}
+		
 		return channelFuture;
 	}
 	
