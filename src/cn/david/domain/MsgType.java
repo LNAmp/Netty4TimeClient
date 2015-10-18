@@ -16,4 +16,6 @@ public final class MsgType {
 	public static final String CHAT_ACK = "CA";
 	public static final String CHAT = "CH";
 	public static final String ASK_OFFLINEMSG = "AO";
+	//推送消息
+	public static final String NOTIFICATION_MSG = "PN";
 }

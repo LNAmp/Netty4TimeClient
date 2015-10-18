@@ -1,0 +1,72 @@
+2015-03-20 10:50:29  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-03-20 10:50:29  [ main:10 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-03-20 10:50:29  [ main:131 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-03-20 10:50:29  [ main:151 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-03-20 10:50:29  [ main:151 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-03-20 10:50:29  [ main:152 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-03-20 10:50:29  [ main:152 ] - [ DEBUG ]  Platform: Windows
+2015-03-20 10:50:29  [ main:153 ] - [ DEBUG ]  Java version: 7
+2015-03-20 10:50:29  [ main:154 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-03-20 10:50:29  [ main:154 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-03-20 10:50:29  [ main:171 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-03-20 10:50:29  [ main:173 ] - [ DEBUG ]  Javassist: unavailable
+2015-03-20 10:50:29  [ main:173 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-03-20 10:50:29  [ main:174 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-03-20 10:50:29  [ main:175 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-03-20 10:50:29  [ main:175 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-03-20 10:50:30  [ main:320 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-03-20 10:50:30  [ main:320 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-03-20 10:50:30  [ main:715 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x94f94fb63d610ba7 (took 136 ms)
+2015-03-20 10:50:30  [ main:968 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-03-20 10:50:30  [ main:968 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-03-20 10:50:31  [ main:1953 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-03-20 10:50:31  [ nioEventLoopGroup-2-1:2085 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-03-20 10:50:31  [ nioEventLoopGroup-2-1:2113 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-03-20 10:50:33  [ nioEventLoopGroup-2-1:3370 ] - [ INFO ]  process ackMsg
+2015-03-20 10:53:10  [ nioEventLoopGroup-2-1:160952 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:232)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:194)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:247)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:194)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:828)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$5.run(AbstractChannel.java:576)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IndexOutOfBoundsException
+	at io.netty.buffer.EmptyByteBuf.checkLength(EmptyByteBuf.java:866)
+	at io.netty.buffer.EmptyByteBuf.readBytes(EmptyByteBuf.java:530)
+	at cn.david.codec.MsgFiledBasedProtobufFrameDecoder.decode(MsgFiledBasedProtobufFrameDecoder.java:22)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeLast(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:227)
+	... 12 more
+2015-03-20 16:31:37  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-03-20 16:31:37  [ main:15 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-03-20 16:31:37  [ main:114 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-03-20 16:31:37  [ main:140 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-03-20 16:31:37  [ main:140 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-03-20 16:31:37  [ main:141 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-03-20 16:31:37  [ main:141 ] - [ DEBUG ]  Platform: Windows
+2015-03-20 16:31:37  [ main:143 ] - [ DEBUG ]  Java version: 7
+2015-03-20 16:31:37  [ main:143 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-03-20 16:31:37  [ main:143 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-03-20 16:31:37  [ main:144 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-03-20 16:31:37  [ main:145 ] - [ DEBUG ]  Javassist: unavailable
+2015-03-20 16:31:37  [ main:145 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-03-20 16:31:37  [ main:145 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-03-20 16:31:37  [ main:146 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-03-20 16:31:37  [ main:147 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-03-20 16:31:37  [ main:329 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-03-20 16:31:37  [ main:330 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-03-20 16:31:38  [ main:802 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xa6dd3786b39eb186 (took 149 ms)
+2015-03-20 16:31:38  [ main:922 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-03-20 16:31:38  [ main:923 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-03-20 16:31:38  [ main:1552 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-03-20 16:31:38  [ nioEventLoopGroup-2-1:1599 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-03-20 16:31:38  [ nioEventLoopGroup-2-1:1613 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-03-20 16:31:40  [ nioEventLoopGroup-2-1:2854 ] - [ INFO ]  process ackMsg

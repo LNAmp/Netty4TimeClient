@@ -11,6 +11,7 @@ import cn.david.domain.IMProto.AskOfflineMsg;
 import cn.david.domain.IMProto.ChatAckMsg;
 import cn.david.domain.IMProto.ChatMsg;
 import cn.david.domain.IMProto.LoginMsg;
+import cn.david.domain.IMProto.NotificationMsg;
 import cn.david.domain.IMProto.RegisterMsg;
 import cn.david.domain.IMProto.UploadLocMsg;
 import cn.david.domain.MsgType;
@@ -34,6 +35,7 @@ public class MsgTypeTable {
 		typeTable.put(MsgType.CHAT_ACK, ChatAckMsg.getDefaultInstance());
 		typeTable.put(MsgType.CHAT, ChatMsg.getDefaultInstance());
 		typeTable.put(MsgType.ASK_OFFLINEMSG, AskOfflineMsg.getDefaultInstance());
+		typeTable.put(MsgType.NOTIFICATION_MSG, NotificationMsg.getDefaultInstance());
 	}
 	
 	public static MessageLite getMsgProto(String msgType) {

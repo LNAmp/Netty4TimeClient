@@ -1,0 +1,52 @@
+2015-06-01 15:45:26  [ main:0 ] - [ INFO ]  connect()...
+2015-06-01 15:45:26  [ main:29 ] - [ INFO ]  addTask()...
+2015-06-01 15:45:26  [ main:29 ] - [ INFO ]  Incremented task count to 1
+2015-06-01 15:45:26  [ main:31 ] - [ INFO ]  addTask()...done
+2015-06-01 15:45:26  [ pool-1-thread-1:32 ] - [ INFO ]  ConnectTask.run()...
+2015-06-01 15:45:26  [ main:51 ] - [ INFO ]  addTask()...
+2015-06-01 15:45:26  [ main:51 ] - [ INFO ]  Incremented task count to 2
+2015-06-01 15:45:26  [ main:51 ] - [ INFO ]  addTask()...done
+2015-06-01 15:45:26  [ main:52 ] - [ INFO ]  connect() done...
+2015-06-01 15:45:27  [ nioEventLoopGroup-2-1:882 ] - [ INFO ]  channelRegistered
+2015-06-01 15:45:27  [ nioEventLoopGroup-2-1:886 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-06-01 15:45:27  [ pool-1-thread-1:1039 ] - [ INFO ]  Connected to server successfully.
+2015-06-01 15:45:27  [ pool-1-thread-1:1039 ] - [ INFO ]  runTask()...
+2015-06-01 15:45:27  [ pool-1-thread-1:1040 ] - [ INFO ]  Decremented task count to 1
+2015-06-01 15:45:27  [ pool-1-thread-1:1040 ] - [ INFO ]  runTask()...done
+2015-06-01 15:45:27  [ pool-1-thread-1:1040 ] - [ INFO ]  LoginTask.run()...
+2015-06-01 15:45:29  [ nioEventLoopGroup-2-1:2879 ] - [ INFO ]  process ackMsg
+2015-06-01 15:45:29  [ pool-1-thread-1:2914 ] - [ INFO ]  runTask()...
+2015-06-01 15:45:29  [ pool-1-thread-1:2917 ] - [ INFO ]  Decremented task count to 0
+2015-06-01 15:45:29  [ pool-1-thread-1:2921 ] - [ INFO ]  runTask()...done
+2015-06-01 15:45:30  [ nioEventLoopGroup-2-1:3674 ] - [ INFO ]  process pnMsg
+2015-06-01 15:45:30  [ nioEventLoopGroup-2-1:3675 ] - [ INFO ]  process pnMsg
+2015-06-01 15:45:30  [ Listener Porcessor:3675 ] - [ INFO ]  msgId : 15007-1234567 title: 胖子胖
+2015-06-01 15:45:30  [ nioEventLoopGroup-2-1:3675 ] - [ INFO ]  process pnMsg
+2015-06-01 15:45:30  [ Listener Porcessor:3676 ] - [ INFO ]  Send Ack: 15007-1234567
+2015-06-01 15:45:30  [ nioEventLoopGroup-2-1:3676 ] - [ INFO ]  process pnMsg
+2015-06-01 15:45:30  [ nioEventLoopGroup-2-1:3677 ] - [ INFO ]  process pnMsg
+2015-06-01 15:45:30  [ nioEventLoopGroup-2-1:3677 ] - [ INFO ]  process pnMsg
+2015-06-01 15:45:30  [ Listener Porcessor:3708 ] - [ INFO ]  msgId : 20005-1234567 title: 很好
+2015-06-01 15:45:30  [ Listener Porcessor:3708 ] - [ INFO ]  Send Ack: 20005-1234567
+2015-06-01 15:45:30  [ Listener Porcessor:3710 ] - [ INFO ]  msgId : 20006-1234567 title: 很好2
+2015-06-01 15:45:30  [ Listener Porcessor:3710 ] - [ INFO ]  Send Ack: 20006-1234567
+2015-06-01 15:45:30  [ Listener Porcessor:3712 ] - [ INFO ]  msgId : 20007-1234567 title: 健身挺好
+2015-06-01 15:45:30  [ Listener Porcessor:3713 ] - [ INFO ]  Send Ack: 20007-1234567
+2015-06-01 15:45:30  [ Listener Porcessor:3715 ] - [ INFO ]  msgId : 20008-1234567 title: 喜欢yq的人
+2015-06-01 15:45:30  [ Listener Porcessor:3715 ] - [ INFO ]  Send Ack: 20008-1234567
+2015-06-01 15:45:30  [ Listener Porcessor:3717 ] - [ INFO ]  msgId : 20009-1234567 title: 胖子胖
+2015-06-01 15:45:30  [ Listener Porcessor:3717 ] - [ INFO ]  Send Ack: 20009-1234567
+2015-06-01 15:46:00  [ nioEventLoopGroup-2-1:33708 ] - [ INFO ]  At time : 15:46:00 ,recevie the PING.
+2015-06-01 15:46:00  [ nioEventLoopGroup-2-1:33719 ] - [ INFO ]  At time : 15:46:00 ,to send the PING.
+2015-06-01 15:46:00  [ nioEventLoopGroup-2-1:33720 ] - [ INFO ]  At time : 15:46:00 ,received PONG from client.
+2015-06-01 15:46:30  [ nioEventLoopGroup-2-1:63721 ] - [ INFO ]  At time : 15:46:30 ,to send the PING.
+2015-06-01 15:46:30  [ nioEventLoopGroup-2-1:63722 ] - [ INFO ]  At time : 15:46:30 ,received PONG from client.
+2015-06-01 15:47:00  [ nioEventLoopGroup-2-1:93722 ] - [ INFO ]  At time : 15:47:00 ,to send the PING.
+2015-06-01 15:47:00  [ nioEventLoopGroup-2-1:93724 ] - [ INFO ]  At time : 15:47:00 ,received PONG from client.
+2015-06-01 15:47:27  [ nioEventLoopGroup-2-1:121276 ] - [ INFO ]  ClientMsgHandler.exceptionCaught()...
+2015-06-01 15:47:27  [ nioEventLoopGroup-2-1:121276 ] - [ INFO ]  Ready to close the conn,reason:远程主机强迫关闭了一个现有的连接。
+2015-06-01 15:47:27  [ nioEventLoopGroup-2-1:121296 ] - [ INFO ]  channelInactive
+2015-06-01 15:47:27  [ nioEventLoopGroup-2-1:121296 ] - [ INFO ]  ClientMsgHandler.exceptionCaught()...
+2015-06-01 15:47:27  [ nioEventLoopGroup-2-1:121297 ] - [ WARN ]  RuntimeException happened:java.lang.RuntimeException: not enough bytes in bytebuf when decode msgFiled
+2015-06-01 15:47:27  [ nioEventLoopGroup-2-1:121297 ] - [ INFO ]  channelUnregistered
+2015-06-01 15:47:27  [ Reconnection Thread.:121297 ] - [ INFO ]  The 0 time to reconnect,trying to reconnect in 10 seconds

@@ -1,0 +1,293 @@
+2015-02-07 15:16:41  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-02-07 15:16:41  [ main:12 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-02-07 15:16:41  [ main:130 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-02-07 15:16:41  [ main:132 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-02-07 15:16:41  [ main:132 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-02-07 15:16:41  [ main:133 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-02-07 15:16:41  [ main:134 ] - [ DEBUG ]  Platform: Windows
+2015-02-07 15:16:41  [ main:134 ] - [ DEBUG ]  Java version: 7
+2015-02-07 15:16:41  [ main:135 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-02-07 15:16:41  [ main:135 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-02-07 15:16:41  [ main:135 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-02-07 15:16:41  [ main:146 ] - [ DEBUG ]  Javassist: unavailable
+2015-02-07 15:16:41  [ main:147 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-02-07 15:16:41  [ main:147 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-02-07 15:16:41  [ main:147 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-02-07 15:16:41  [ main:148 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-02-07 15:16:41  [ main:347 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-02-07 15:16:41  [ main:347 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-02-07 15:16:42  [ main:472 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x3c64d60c89868010 (took 6 ms)
+2015-02-07 15:16:42  [ main:760 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-02-07 15:16:42  [ main:760 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-02-07 15:16:42  [ main:1083 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-02-07 15:16:42  [ nioEventLoopGroup-2-1:1410 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-02-07 15:16:43  [ nioEventLoopGroup-2-1:1457 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-02-07 15:16:45  [ nioEventLoopGroup-2-1:4033 ] - [ INFO ]  process ackMsg
+2015-02-07 15:17:15  [ nioEventLoopGroup-2-1:34040 ] - [ INFO ]  At time : 15:17:15 ,recevie the PING.
+2015-02-07 15:17:45  [ nioEventLoopGroup-2-1:64043 ] - [ INFO ]  At time : 15:17:45 ,recevie the PING.
+2015-02-07 15:18:04  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-02-07 15:18:04  [ main:4 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-02-07 15:18:04  [ main:10 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-02-07 15:18:04  [ main:11 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-02-07 15:18:04  [ main:12 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-02-07 15:18:04  [ main:12 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-02-07 15:18:04  [ main:12 ] - [ DEBUG ]  Platform: Windows
+2015-02-07 15:18:04  [ main:13 ] - [ DEBUG ]  Java version: 7
+2015-02-07 15:18:04  [ main:13 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-02-07 15:18:04  [ main:13 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-02-07 15:18:04  [ main:13 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-02-07 15:18:04  [ main:14 ] - [ DEBUG ]  Javassist: unavailable
+2015-02-07 15:18:04  [ main:14 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-02-07 15:18:04  [ main:14 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-02-07 15:18:04  [ main:14 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-02-07 15:18:04  [ main:15 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-02-07 15:18:04  [ main:40 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-02-07 15:18:04  [ main:40 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-02-07 15:18:04  [ main:82 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xb0efe46fb5aa5493 (took 5 ms)
+2015-02-07 15:18:04  [ main:104 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-02-07 15:18:04  [ main:104 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-02-07 15:18:04  [ main:181 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-02-07 15:18:04  [ nioEventLoopGroup-2-1:198 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-02-07 15:18:04  [ nioEventLoopGroup-2-1:203 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-02-07 15:18:04  [ nioEventLoopGroup-2-1:221 ] - [ INFO ]  process ackMsg
+2015-02-07 15:18:04  [ nioEventLoopGroup-2-1:264 ] - [ INFO ]  process chatAckMsg
+2015-02-07 15:18:05  [ nioEventLoopGroup-2-1:403 ] - [ INFO ]  process chatAckMsg
+2015-02-07 15:18:35  [ nioEventLoopGroup-2-1:30342 ] - [ INFO ]  At time : 15:18:35 ,recevie the PING.
+2015-02-07 15:19:05  [ nioEventLoopGroup-2-1:60343 ] - [ INFO ]  At time : 15:19:05 ,recevie the PING.
+2015-02-07 15:21:51  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-02-07 15:21:51  [ main:5 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-02-07 15:21:51  [ main:16 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-02-07 15:21:51  [ main:20 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-02-07 15:21:51  [ main:21 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-02-07 15:21:51  [ main:22 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-02-07 15:21:51  [ main:22 ] - [ DEBUG ]  Platform: Windows
+2015-02-07 15:21:51  [ main:23 ] - [ DEBUG ]  Java version: 7
+2015-02-07 15:21:51  [ main:23 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-02-07 15:21:51  [ main:23 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-02-07 15:21:51  [ main:24 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-02-07 15:21:51  [ main:25 ] - [ DEBUG ]  Javassist: unavailable
+2015-02-07 15:21:51  [ main:25 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-02-07 15:21:51  [ main:25 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-02-07 15:21:51  [ main:26 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-02-07 15:21:51  [ main:26 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-02-07 15:21:51  [ main:63 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-02-07 15:21:51  [ main:63 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-02-07 15:21:51  [ main:104 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xc9ced4fcbde398f2 (took 5 ms)
+2015-02-07 15:21:51  [ main:124 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-02-07 15:21:51  [ main:124 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-02-07 15:21:51  [ main:201 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-02-07 15:21:51  [ nioEventLoopGroup-2-1:214 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-02-07 15:21:51  [ nioEventLoopGroup-2-1:218 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-02-07 15:21:52  [ nioEventLoopGroup-2-1:556 ] - [ INFO ]  process ackMsg
+2015-02-07 15:21:52  [ nioEventLoopGroup-2-1:586 ] - [ INFO ]  process chatAckMsg
+2015-02-07 15:22:22  [ nioEventLoopGroup-2-1:30590 ] - [ INFO ]  At time : 15:22:22 ,recevie the PING.
+2015-02-07 15:22:52  [ nioEventLoopGroup-2-1:60591 ] - [ INFO ]  At time : 15:22:52 ,recevie the PING.
+2015-02-07 15:23:22  [ nioEventLoopGroup-2-1:90592 ] - [ INFO ]  At time : 15:23:22 ,recevie the PING.
+2015-02-07 15:23:52  [ nioEventLoopGroup-2-1:120594 ] - [ INFO ]  At time : 15:23:52 ,recevie the PING.
+2015-02-07 15:24:22  [ nioEventLoopGroup-2-1:150595 ] - [ INFO ]  At time : 15:24:22 ,recevie the PING.
+2015-02-07 15:24:52  [ nioEventLoopGroup-2-1:180597 ] - [ INFO ]  At time : 15:24:52 ,recevie the PING.
+2015-02-07 15:25:22  [ nioEventLoopGroup-2-1:210598 ] - [ INFO ]  At time : 15:25:22 ,recevie the PING.
+2015-02-07 15:25:52  [ nioEventLoopGroup-2-1:240600 ] - [ INFO ]  At time : 15:25:52 ,recevie the PING.
+2015-02-07 15:26:22  [ nioEventLoopGroup-2-1:270601 ] - [ INFO ]  At time : 15:26:22 ,recevie the PING.
+2015-02-07 15:26:52  [ nioEventLoopGroup-2-1:300603 ] - [ INFO ]  At time : 15:26:52 ,recevie the PING.
+2015-02-07 15:27:22  [ nioEventLoopGroup-2-1:330605 ] - [ INFO ]  At time : 15:27:22 ,recevie the PING.
+2015-02-07 15:27:52  [ nioEventLoopGroup-2-1:360607 ] - [ INFO ]  At time : 15:27:52 ,recevie the PING.
+2015-02-07 15:28:22  [ nioEventLoopGroup-2-1:390608 ] - [ INFO ]  At time : 15:28:22 ,recevie the PING.
+2015-02-07 15:28:52  [ nioEventLoopGroup-2-1:420609 ] - [ INFO ]  At time : 15:28:52 ,recevie the PING.
+2015-02-07 15:29:22  [ nioEventLoopGroup-2-1:450611 ] - [ INFO ]  At time : 15:29:22 ,recevie the PING.
+2015-02-07 15:29:52  [ nioEventLoopGroup-2-1:480612 ] - [ INFO ]  At time : 15:29:52 ,recevie the PING.
+2015-02-07 15:30:22  [ nioEventLoopGroup-2-1:510613 ] - [ INFO ]  At time : 15:30:22 ,recevie the PING.
+2015-02-07 15:30:52  [ nioEventLoopGroup-2-1:540615 ] - [ INFO ]  At time : 15:30:52 ,recevie the PING.
+2015-02-07 15:31:22  [ nioEventLoopGroup-2-1:570616 ] - [ INFO ]  At time : 15:31:22 ,recevie the PING.
+2015-02-07 15:31:52  [ nioEventLoopGroup-2-1:600618 ] - [ INFO ]  At time : 15:31:52 ,recevie the PING.
+2015-02-07 15:32:22  [ nioEventLoopGroup-2-1:630619 ] - [ INFO ]  At time : 15:32:22 ,recevie the PING.
+2015-02-07 15:32:52  [ nioEventLoopGroup-2-1:660620 ] - [ INFO ]  At time : 15:32:52 ,recevie the PING.
+2015-02-07 15:33:22  [ nioEventLoopGroup-2-1:690622 ] - [ INFO ]  At time : 15:33:22 ,recevie the PING.
+2015-02-07 15:33:52  [ nioEventLoopGroup-2-1:720623 ] - [ INFO ]  At time : 15:33:52 ,recevie the PING.
+2015-02-07 15:34:22  [ nioEventLoopGroup-2-1:750624 ] - [ INFO ]  At time : 15:34:22 ,recevie the PING.
+2015-02-07 15:34:52  [ nioEventLoopGroup-2-1:780626 ] - [ INFO ]  At time : 15:34:52 ,recevie the PING.
+2015-02-07 15:35:22  [ nioEventLoopGroup-2-1:810628 ] - [ INFO ]  At time : 15:35:22 ,recevie the PING.
+2015-02-07 15:35:52  [ nioEventLoopGroup-2-1:840629 ] - [ INFO ]  At time : 15:35:52 ,recevie the PING.
+2015-02-07 15:36:22  [ nioEventLoopGroup-2-1:870630 ] - [ INFO ]  At time : 15:36:22 ,recevie the PING.
+2015-02-07 15:36:52  [ nioEventLoopGroup-2-1:900632 ] - [ INFO ]  At time : 15:36:52 ,recevie the PING.
+2015-02-07 15:37:22  [ nioEventLoopGroup-2-1:930633 ] - [ INFO ]  At time : 15:37:22 ,recevie the PING.
+2015-02-07 15:37:52  [ nioEventLoopGroup-2-1:960635 ] - [ INFO ]  At time : 15:37:52 ,recevie the PING.
+2015-02-07 15:38:22  [ nioEventLoopGroup-2-1:990636 ] - [ INFO ]  At time : 15:38:22 ,recevie the PING.
+2015-02-07 15:38:52  [ nioEventLoopGroup-2-1:1020638 ] - [ INFO ]  At time : 15:38:52 ,recevie the PING.
+2015-02-07 15:39:22  [ nioEventLoopGroup-2-1:1050639 ] - [ INFO ]  At time : 15:39:22 ,recevie the PING.
+2015-02-07 15:39:52  [ nioEventLoopGroup-2-1:1080642 ] - [ INFO ]  At time : 15:39:52 ,recevie the PING.
+2015-02-07 15:40:22  [ nioEventLoopGroup-2-1:1110642 ] - [ INFO ]  At time : 15:40:22 ,recevie the PING.
+2015-02-07 15:40:52  [ nioEventLoopGroup-2-1:1140643 ] - [ INFO ]  At time : 15:40:52 ,recevie the PING.
+2015-02-07 15:41:22  [ nioEventLoopGroup-2-1:1170644 ] - [ INFO ]  At time : 15:41:22 ,recevie the PING.
+2015-02-07 15:41:52  [ nioEventLoopGroup-2-1:1200646 ] - [ INFO ]  At time : 15:41:52 ,recevie the PING.
+2015-02-07 15:42:22  [ nioEventLoopGroup-2-1:1230647 ] - [ INFO ]  At time : 15:42:22 ,recevie the PING.
+2015-02-07 15:42:52  [ nioEventLoopGroup-2-1:1260648 ] - [ INFO ]  At time : 15:42:52 ,recevie the PING.
+2015-02-07 15:43:22  [ nioEventLoopGroup-2-1:1290650 ] - [ INFO ]  At time : 15:43:22 ,recevie the PING.
+2015-02-07 15:43:52  [ nioEventLoopGroup-2-1:1320651 ] - [ INFO ]  At time : 15:43:52 ,recevie the PING.
+2015-02-07 15:44:22  [ nioEventLoopGroup-2-1:1350652 ] - [ INFO ]  At time : 15:44:22 ,recevie the PING.
+2015-02-07 15:44:52  [ nioEventLoopGroup-2-1:1380654 ] - [ INFO ]  At time : 15:44:52 ,recevie the PING.
+2015-02-07 15:45:22  [ nioEventLoopGroup-2-1:1410655 ] - [ INFO ]  At time : 15:45:22 ,recevie the PING.
+2015-02-07 15:45:52  [ nioEventLoopGroup-2-1:1440657 ] - [ INFO ]  At time : 15:45:52 ,recevie the PING.
+2015-02-07 15:46:22  [ nioEventLoopGroup-2-1:1470657 ] - [ INFO ]  At time : 15:46:22 ,recevie the PING.
+2015-02-07 15:46:52  [ nioEventLoopGroup-2-1:1500659 ] - [ INFO ]  At time : 15:46:52 ,recevie the PING.
+2015-02-07 15:47:22  [ nioEventLoopGroup-2-1:1530661 ] - [ INFO ]  At time : 15:47:22 ,recevie the PING.
+2015-02-07 15:47:52  [ nioEventLoopGroup-2-1:1560662 ] - [ INFO ]  At time : 15:47:52 ,recevie the PING.
+2015-02-07 15:48:22  [ nioEventLoopGroup-2-1:1590663 ] - [ INFO ]  At time : 15:48:22 ,recevie the PING.
+2015-02-07 15:48:52  [ nioEventLoopGroup-2-1:1620665 ] - [ INFO ]  At time : 15:48:52 ,recevie the PING.
+2015-02-07 15:49:22  [ nioEventLoopGroup-2-1:1650666 ] - [ INFO ]  At time : 15:49:22 ,recevie the PING.
+2015-02-07 15:49:52  [ nioEventLoopGroup-2-1:1680667 ] - [ INFO ]  At time : 15:49:52 ,recevie the PING.
+2015-02-07 15:50:22  [ nioEventLoopGroup-2-1:1710668 ] - [ INFO ]  At time : 15:50:22 ,recevie the PING.
+2015-02-07 15:50:52  [ nioEventLoopGroup-2-1:1740670 ] - [ INFO ]  At time : 15:50:52 ,recevie the PING.
+2015-02-07 15:51:22  [ nioEventLoopGroup-2-1:1770671 ] - [ INFO ]  At time : 15:51:22 ,recevie the PING.
+2015-02-07 15:51:52  [ nioEventLoopGroup-2-1:1800672 ] - [ INFO ]  At time : 15:51:52 ,recevie the PING.
+2015-02-07 15:52:22  [ nioEventLoopGroup-2-1:1830674 ] - [ INFO ]  At time : 15:52:22 ,recevie the PING.
+2015-02-07 15:52:52  [ nioEventLoopGroup-2-1:1860676 ] - [ INFO ]  At time : 15:52:52 ,recevie the PING.
+2015-02-07 15:53:22  [ nioEventLoopGroup-2-1:1890677 ] - [ INFO ]  At time : 15:53:22 ,recevie the PING.
+2015-02-07 15:53:52  [ nioEventLoopGroup-2-1:1920678 ] - [ INFO ]  At time : 15:53:52 ,recevie the PING.
+2015-02-07 15:54:22  [ nioEventLoopGroup-2-1:1950680 ] - [ INFO ]  At time : 15:54:22 ,recevie the PING.
+2015-02-07 15:54:52  [ nioEventLoopGroup-2-1:1980680 ] - [ INFO ]  At time : 15:54:52 ,recevie the PING.
+2015-02-07 15:55:22  [ nioEventLoopGroup-2-1:2010682 ] - [ INFO ]  At time : 15:55:22 ,recevie the PING.
+2015-02-07 15:55:52  [ nioEventLoopGroup-2-1:2040683 ] - [ INFO ]  At time : 15:55:52 ,recevie the PING.
+2015-02-07 15:56:22  [ nioEventLoopGroup-2-1:2070685 ] - [ INFO ]  At time : 15:56:22 ,recevie the PING.
+2015-02-07 15:56:52  [ nioEventLoopGroup-2-1:2100685 ] - [ INFO ]  At time : 15:56:52 ,recevie the PING.
+2015-02-07 15:57:22  [ nioEventLoopGroup-2-1:2130687 ] - [ INFO ]  At time : 15:57:22 ,recevie the PING.
+2015-02-07 15:57:52  [ nioEventLoopGroup-2-1:2160689 ] - [ INFO ]  At time : 15:57:52 ,recevie the PING.
+2015-02-07 15:58:22  [ nioEventLoopGroup-2-1:2190690 ] - [ INFO ]  At time : 15:58:22 ,recevie the PING.
+2015-02-07 15:58:52  [ nioEventLoopGroup-2-1:2220691 ] - [ INFO ]  At time : 15:58:52 ,recevie the PING.
+2015-02-07 15:59:22  [ nioEventLoopGroup-2-1:2250693 ] - [ INFO ]  At time : 15:59:22 ,recevie the PING.
+2015-02-07 15:59:52  [ nioEventLoopGroup-2-1:2280694 ] - [ INFO ]  At time : 15:59:52 ,recevie the PING.
+2015-02-07 16:00:22  [ nioEventLoopGroup-2-1:2310695 ] - [ INFO ]  At time : 16:00:22 ,recevie the PING.
+2015-02-07 16:00:52  [ nioEventLoopGroup-2-1:2340697 ] - [ INFO ]  At time : 16:00:52 ,recevie the PING.
+2015-02-07 16:01:22  [ nioEventLoopGroup-2-1:2370698 ] - [ INFO ]  At time : 16:01:22 ,recevie the PING.
+2015-02-07 16:01:52  [ nioEventLoopGroup-2-1:2400699 ] - [ INFO ]  At time : 16:01:52 ,recevie the PING.
+2015-02-07 16:02:22  [ nioEventLoopGroup-2-1:2430701 ] - [ INFO ]  At time : 16:02:22 ,recevie the PING.
+2015-02-07 16:02:52  [ nioEventLoopGroup-2-1:2460702 ] - [ INFO ]  At time : 16:02:52 ,recevie the PING.
+2015-02-07 16:03:22  [ nioEventLoopGroup-2-1:2490704 ] - [ INFO ]  At time : 16:03:22 ,recevie the PING.
+2015-02-07 16:03:52  [ nioEventLoopGroup-2-1:2520704 ] - [ INFO ]  At time : 16:03:52 ,recevie the PING.
+2015-02-07 16:04:22  [ nioEventLoopGroup-2-1:2550706 ] - [ INFO ]  At time : 16:04:22 ,recevie the PING.
+2015-02-07 16:04:52  [ nioEventLoopGroup-2-1:2580707 ] - [ INFO ]  At time : 16:04:52 ,recevie the PING.
+2015-02-07 16:05:22  [ nioEventLoopGroup-2-1:2610709 ] - [ INFO ]  At time : 16:05:22 ,recevie the PING.
+2015-02-07 16:05:52  [ nioEventLoopGroup-2-1:2640710 ] - [ INFO ]  At time : 16:05:52 ,recevie the PING.
+2015-02-07 16:06:22  [ nioEventLoopGroup-2-1:2670711 ] - [ INFO ]  At time : 16:06:22 ,recevie the PING.
+2015-02-07 16:06:52  [ nioEventLoopGroup-2-1:2700713 ] - [ INFO ]  At time : 16:06:52 ,recevie the PING.
+2015-02-07 16:07:22  [ nioEventLoopGroup-2-1:2730713 ] - [ INFO ]  At time : 16:07:22 ,recevie the PING.
+2015-02-07 16:07:52  [ nioEventLoopGroup-2-1:2760715 ] - [ INFO ]  At time : 16:07:52 ,recevie the PING.
+2015-02-07 16:08:22  [ nioEventLoopGroup-2-1:2790717 ] - [ INFO ]  At time : 16:08:22 ,recevie the PING.
+2015-02-07 16:08:52  [ nioEventLoopGroup-2-1:2820718 ] - [ INFO ]  At time : 16:08:52 ,recevie the PING.
+2015-02-07 16:09:22  [ nioEventLoopGroup-2-1:2850719 ] - [ INFO ]  At time : 16:09:22 ,recevie the PING.
+2015-02-07 16:09:52  [ nioEventLoopGroup-2-1:2880721 ] - [ INFO ]  At time : 16:09:52 ,recevie the PING.
+2015-02-07 16:10:22  [ nioEventLoopGroup-2-1:2910723 ] - [ INFO ]  At time : 16:10:22 ,recevie the PING.
+2015-02-07 16:10:52  [ nioEventLoopGroup-2-1:2940723 ] - [ INFO ]  At time : 16:10:52 ,recevie the PING.
+2015-02-07 16:11:22  [ nioEventLoopGroup-2-1:2970725 ] - [ INFO ]  At time : 16:11:22 ,recevie the PING.
+2015-02-07 16:11:52  [ nioEventLoopGroup-2-1:3000727 ] - [ INFO ]  At time : 16:11:52 ,recevie the PING.
+2015-02-07 16:12:22  [ nioEventLoopGroup-2-1:3030729 ] - [ INFO ]  At time : 16:12:22 ,recevie the PING.
+2015-02-07 16:12:52  [ nioEventLoopGroup-2-1:3060730 ] - [ INFO ]  At time : 16:12:52 ,recevie the PING.
+2015-02-07 16:13:22  [ nioEventLoopGroup-2-1:3090731 ] - [ INFO ]  At time : 16:13:22 ,recevie the PING.
+2015-02-07 16:13:52  [ nioEventLoopGroup-2-1:3120733 ] - [ INFO ]  At time : 16:13:52 ,recevie the PING.
+2015-02-07 16:14:22  [ nioEventLoopGroup-2-1:3150733 ] - [ INFO ]  At time : 16:14:22 ,recevie the PING.
+2015-02-07 16:14:52  [ nioEventLoopGroup-2-1:3180735 ] - [ INFO ]  At time : 16:14:52 ,recevie the PING.
+2015-02-07 16:15:22  [ nioEventLoopGroup-2-1:3210737 ] - [ INFO ]  At time : 16:15:22 ,recevie the PING.
+2015-02-07 16:15:52  [ nioEventLoopGroup-2-1:3240739 ] - [ INFO ]  At time : 16:15:52 ,recevie the PING.
+2015-02-07 16:16:22  [ nioEventLoopGroup-2-1:3270739 ] - [ INFO ]  At time : 16:16:22 ,recevie the PING.
+2015-02-07 16:16:52  [ nioEventLoopGroup-2-1:3300741 ] - [ INFO ]  At time : 16:16:52 ,recevie the PING.
+2015-02-07 16:17:22  [ nioEventLoopGroup-2-1:3330743 ] - [ INFO ]  At time : 16:17:22 ,recevie the PING.
+2015-02-07 16:17:52  [ nioEventLoopGroup-2-1:3360743 ] - [ INFO ]  At time : 16:17:52 ,recevie the PING.
+2015-02-07 16:18:22  [ nioEventLoopGroup-2-1:3390745 ] - [ INFO ]  At time : 16:18:22 ,recevie the PING.
+2015-02-07 16:18:52  [ nioEventLoopGroup-2-1:3420746 ] - [ INFO ]  At time : 16:18:52 ,recevie the PING.
+2015-02-07 16:19:22  [ nioEventLoopGroup-2-1:3450748 ] - [ INFO ]  At time : 16:19:22 ,recevie the PING.
+2015-02-07 16:19:52  [ nioEventLoopGroup-2-1:3480748 ] - [ INFO ]  At time : 16:19:52 ,recevie the PING.
+2015-02-07 16:20:22  [ nioEventLoopGroup-2-1:3510749 ] - [ INFO ]  At time : 16:20:22 ,recevie the PING.
+2015-02-07 16:20:52  [ nioEventLoopGroup-2-1:3540751 ] - [ INFO ]  At time : 16:20:52 ,recevie the PING.
+2015-02-07 16:24:50  [ main:1 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-02-07 16:24:50  [ main:9 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-02-07 16:24:50  [ main:16 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-02-07 16:24:50  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-02-07 16:24:50  [ main:17 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-02-07 16:24:50  [ main:18 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-02-07 16:24:50  [ main:18 ] - [ DEBUG ]  Platform: Windows
+2015-02-07 16:24:50  [ main:19 ] - [ DEBUG ]  Java version: 7
+2015-02-07 16:24:50  [ main:19 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-02-07 16:24:50  [ main:19 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-02-07 16:24:50  [ main:19 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-02-07 16:24:50  [ main:20 ] - [ DEBUG ]  Javassist: unavailable
+2015-02-07 16:24:50  [ main:20 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-02-07 16:24:50  [ main:21 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-02-07 16:24:50  [ main:21 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-02-07 16:24:50  [ main:21 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-02-07 16:24:50  [ main:55 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-02-07 16:24:50  [ main:56 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-02-07 16:24:50  [ main:96 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xfa6fa1a2a24f4c2e (took 5 ms)
+2015-02-07 16:24:50  [ main:135 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-02-07 16:24:50  [ main:135 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-02-07 16:24:50  [ main:215 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-02-07 16:24:50  [ nioEventLoopGroup-2-1:232 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-02-07 16:24:50  [ nioEventLoopGroup-2-1:236 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-02-07 16:24:51  [ nioEventLoopGroup-2-1:588 ] - [ INFO ]  process ackMsg
+2015-02-07 16:25:21  [ nioEventLoopGroup-2-1:30580 ] - [ INFO ]  At time : 16:25:21 ,recevie the PING.
+2015-02-07 16:25:45  [ nioEventLoopGroup-2-1:54975 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:447)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+2015-02-07 16:25:45  [ nioEventLoopGroup-2-1:55000 ] - [ WARN ]  An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:232)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:194)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:247)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:208)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:194)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:828)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$5.run(AbstractChannel.java:576)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IndexOutOfBoundsException
+	at io.netty.buffer.EmptyByteBuf.checkLength(EmptyByteBuf.java:866)
+	at io.netty.buffer.EmptyByteBuf.readBytes(EmptyByteBuf.java:530)
+	at cn.david.codec.MsgFiledBasedProtobufFrameDecoder.decode(MsgFiledBasedProtobufFrameDecoder.java:22)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeLast(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:227)
+	... 12 more
+2015-02-07 16:29:18  [ main:0 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2015-02-07 16:29:18  [ main:5 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2015-02-07 16:29:18  [ main:13 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2015-02-07 16:29:18  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2015-02-07 16:29:18  [ main:14 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2015-02-07 16:29:18  [ main:15 ] - [ DEBUG ]  java.nio.Bits.unaligned: true
+2015-02-07 16:29:18  [ main:15 ] - [ DEBUG ]  Platform: Windows
+2015-02-07 16:29:18  [ main:15 ] - [ DEBUG ]  Java version: 7
+2015-02-07 16:29:18  [ main:15 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2015-02-07 16:29:18  [ main:16 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2015-02-07 16:29:18  [ main:16 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+2015-02-07 16:29:18  [ main:17 ] - [ DEBUG ]  Javassist: unavailable
+2015-02-07 16:29:18  [ main:17 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2015-02-07 16:29:18  [ main:17 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\907\AppData\Local\Temp (java.io.tmpdir)
+2015-02-07 16:29:18  [ main:17 ] - [ DEBUG ]  -Dio.netty.bitMode: 32 (sun.arch.data.model)
+2015-02-07 16:29:18  [ main:17 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2015-02-07 16:29:18  [ main:46 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+2015-02-07 16:29:18  [ main:46 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-02-07 16:29:18  [ main:82 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0xad45281ed53b88b0 (took 5 ms)
+2015-02-07 16:29:18  [ main:103 ] - [ DEBUG ]  -Dio.netty.allocator.type: unpooled
+2015-02-07 16:29:18  [ main:104 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-02-07 16:29:18  [ main:172 ] - [ DEBUG ]  -Dio.netty.recycler.maxCapacity.default: 262144
+2015-02-07 16:29:18  [ nioEventLoopGroup-2-1:192 ] - [ DEBUG ]  -Dio.netty.leakDetectionLevel: simple
+2015-02-07 16:29:18  [ nioEventLoopGroup-2-1:197 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2015-02-07 16:29:19  [ nioEventLoopGroup-2-1:533 ] - [ INFO ]  process ackMsg
+2015-02-07 16:29:19  [ nioEventLoopGroup-2-1:562 ] - [ INFO ]  process chatAckMsg
+2015-02-07 16:29:19  [ nioEventLoopGroup-2-1:615 ] - [ INFO ]  process AskLocAckMsg

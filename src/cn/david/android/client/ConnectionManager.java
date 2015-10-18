@@ -8,6 +8,8 @@ import java.util.concurrent.Future;
 
 import org.apache.log4j.Logger;
 
+import cn.david.domain.ReceiveMsg;
+import cn.david.domain.IMProto.NotificationMsg;
 import cn.david.exception.ConnectionException;
 
 public class ConnectionManager {
@@ -20,6 +22,7 @@ public class ConnectionManager {
 	private Future<?> futureTask;
 	private boolean running = false;
 	private Thread reconnThread;
+	private NotificationMsgListener pnListener;
 	
 	private String token;
 	
@@ -39,6 +42,7 @@ public class ConnectionManager {
 		taskSubmitter = new TaskSubmitter();
 		taskList = new ArrayList<Runnable>();
 		reconnThread = new ReconnectionThread();
+		pnListener = new NotificationMsgListener(this);
 	}
 	
 	public ExecutorService getExecutorService() {
@@ -57,11 +61,11 @@ public class ConnectionManager {
 		return futureTask;
 	}
 
-	private boolean isConnected() {
+	public boolean isConnected() {
 		return connection!=null && connection.isConnected();
 	}
 	
-	private boolean isAuthenticated() {
+	public boolean isAuthenticated() {
 		return connection!= null && connection.isAuthenticated() && connection.isConnected();
 	}
 	
@@ -85,6 +89,8 @@ public class ConnectionManager {
 		logger.info("connect()...");
 		addTask(new ConnectTask());
 		addTask(new LoginTask());
+		logger.info("connect() done...");
+		
 	}
 	
 	public void disconnect() {
@@ -164,7 +170,7 @@ public class ConnectionManager {
 		
 		public Future<?> submit(Runnable task) {
 			Future<?> result = null;
-			if(!getExecutorService().isTerminated() && getExecutorService().isShutdown()
+			if(!getExecutorService().isTerminated() && !getExecutorService().isShutdown()
 					&& task != null) {
 				result = getExecutorService().submit(task);
 			}
@@ -204,7 +210,7 @@ public class ConnectionManager {
 		public void run() {
 			try {
 				while(!isInterrupted() && !connManager.isAuthenticated()) {
-					logger.info("Trying to reconnect in " + waiting() + " seconds");
+					logger.info("The "+waiting+" time to reconnect,trying to reconnect in " + waiting() + " seconds");
 					Thread.sleep((long)waiting() * 1000L);
 					connManager.connect();
 					waiting++;
@@ -280,6 +286,9 @@ public class ConnectionManager {
 				String token = null;
 				try {
 					token = connManager.getConnection().login(username, password, timeout);
+					//System.out.println("reToken:"+token);
+					MsgFilter<ReceiveMsg> pnFilter = new MsgTypeFilter(NotificationMsg.class);
+					connManager.getConnection().addRecvMsgListener(pnListener, pnFilter);
 				} catch (ConnectionException e) {
 					String errMsg = e.getMessage();
 					//System.out.println(errMsg);

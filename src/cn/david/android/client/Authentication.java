@@ -34,6 +34,7 @@ public class Authentication {
 		}else if(recvMsg.getMsgContent() instanceof AckMsg) {
 			AckMsg ack = (AckMsg)recvMsg.getMsgContent();
 			if(ack.getResponseCode() != AckCode.LOGIN_SUCCESS) {
+				collcetor.cancle();
 				throw new ConnectionException("Error Code:"+ack.getResponseCode());
 			}else {
 				token = ack.getToken();

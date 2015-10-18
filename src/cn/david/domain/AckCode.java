@@ -10,5 +10,6 @@ public final class AckCode {
 	public final static int LOGIN_WRONG_UN_OR_PWD = 501;
 	public final static int LOGIN_FIELD_EMPTY = 502;
 	public final static int LOGIN_UNKNOW_ERROR = 503;
-	
+	public final static int LOGIN_ALREADY = 504;
+	public final static int PUSH_RECV = 600;
 }

@@ -1,0 +1,323 @@
+2015-05-31 16:51:00  [ main:0 ] - [ INFO ]  connect()...
+2015-05-31 16:51:00  [ main:208 ] - [ INFO ]  addTask()...
+2015-05-31 16:51:00  [ main:208 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 16:51:00  [ main:229 ] - [ INFO ]  addTask()...done
+2015-05-31 16:51:00  [ pool-1-thread-1:230 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 16:51:00  [ main:258 ] - [ INFO ]  addTask()...
+2015-05-31 16:51:00  [ main:258 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 16:51:00  [ main:259 ] - [ INFO ]  addTask()...done
+2015-05-31 16:51:00  [ main:259 ] - [ INFO ]  connect() done...
+2015-05-31 16:51:01  [ nioEventLoopGroup-2-1:1570 ] - [ INFO ]  channelRegistered
+2015-05-31 16:51:01  [ nioEventLoopGroup-2-1:1577 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-05-31 16:51:02  [ pool-1-thread-1:1834 ] - [ INFO ]  Connected to server successfully.
+2015-05-31 16:51:02  [ pool-1-thread-1:1834 ] - [ INFO ]  runTask()...
+2015-05-31 16:51:02  [ pool-1-thread-1:1834 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 16:51:02  [ pool-1-thread-1:1834 ] - [ INFO ]  runTask()...done
+2015-05-31 16:51:02  [ pool-1-thread-1:1835 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 16:51:03  [ nioEventLoopGroup-2-1:3595 ] - [ INFO ]  process ackMsg
+2015-05-31 16:51:04  [ pool-1-thread-1:3656 ] - [ INFO ]  runTask()...
+2015-05-31 16:51:04  [ pool-1-thread-1:3656 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 16:51:04  [ pool-1-thread-1:3656 ] - [ INFO ]  runTask()...done
+2015-05-31 16:51:04  [ nioEventLoopGroup-2-1:4057 ] - [ INFO ]  process pnMsg
+2015-05-31 16:51:04  [ nioEventLoopGroup-2-1:4058 ] - [ INFO ]  process pnMsg
+2015-05-31 16:51:04  [ nioEventLoopGroup-2-1:4060 ] - [ INFO ]  process pnMsg
+2015-05-31 16:51:04  [ nioEventLoopGroup-2-1:4062 ] - [ INFO ]  process pnMsg
+2015-05-31 16:51:04  [ nioEventLoopGroup-2-1:4063 ] - [ INFO ]  process pnMsg
+2015-05-31 16:51:04  [ Listener Porcessor:4090 ] - [ INFO ]  the content is msg_id: "20005-1234567"
+api_key: "1234567"
+title: "\345\276\210\345\245\275"
+message: "\345\274\272\350\272\253\345\201\245\344\275\223\345\260\261\346\230\257\345\276\210\347\212\200\345\210\251\345\221\200\343\200\202"
+uri: "www.t66y.com"
+
+2015-05-31 16:51:04  [ Listener Porcessor:4092 ] - [ INFO ]  the content is msg_id: "20006-1234567"
+api_key: "1234567"
+title: "\345\276\210\345\245\2752"
+message: "\345\274\272\350\272\253\345\201\245\344\275\223\345\260\261\346\230\257\345\276\210\347\212\200\345\210\251\345\221\200\343\200\202"
+uri: "www.t66y.com"
+
+2015-05-31 16:51:04  [ Listener Porcessor:4093 ] - [ INFO ]  the content is msg_id: "20007-1234567"
+api_key: "1234567"
+title: "\345\201\245\350\272\253\346\214\272\345\245\275"
+message: "\345\235\232\346\214\201\345\201\245\350\272\253\357\274\214\350\265\260\345\220\221\344\272\272\347\224\237\345\267\205\345\263\260"
+uri: "www.youtube.com"
+
+2015-05-31 16:51:04  [ Listener Porcessor:4095 ] - [ INFO ]  the content is msg_id: "20008-1234567"
+api_key: "1234567"
+title: "\345\226\234\346\254\242yq\347\232\204\344\272\272"
+message: "\346\263\250\346\204\217\344\272\206\357\274\214\345\245\271\346\230\257\346\210\221\347\232\204"
+uri: "www.david.com"
+
+2015-05-31 16:51:04  [ Listener Porcessor:4096 ] - [ INFO ]  the content is msg_id: "20009-1234567"
+api_key: "1234567"
+title: "\350\203\226\345\255\220\350\203\226"
+message: "\350\203\226\345\255\220\351\203\275\346\230\257\346\275\234\345\212\233\350\202\241"
+uri: "www.fittime.org"
+
+2015-05-31 16:51:32  [ nioEventLoopGroup-2-1:32426 ] - [ INFO ]  At time : 16:51:32 ,to send the PING.
+2015-05-31 16:51:32  [ nioEventLoopGroup-2-1:32450 ] - [ INFO ]  At time : 16:51:32 ,received PONG from client.
+2015-05-31 16:52:02  [ nioEventLoopGroup-2-1:62428 ] - [ INFO ]  At time : 16:52:02 ,to send the PING.
+2015-05-31 16:52:02  [ nioEventLoopGroup-2-1:62429 ] - [ INFO ]  At time : 16:52:02 ,received PONG from client.
+2015-05-31 17:00:34  [ main:0 ] - [ INFO ]  connect()...
+2015-05-31 17:00:34  [ main:2 ] - [ INFO ]  addTask()...
+2015-05-31 17:00:34  [ main:2 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:00:34  [ main:3 ] - [ INFO ]  addTask()...done
+2015-05-31 17:00:34  [ pool-1-thread-1:3 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:00:34  [ main:4 ] - [ INFO ]  addTask()...
+2015-05-31 17:00:34  [ main:4 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:00:34  [ main:5 ] - [ INFO ]  addTask()...done
+2015-05-31 17:00:34  [ main:5 ] - [ INFO ]  connect() done...
+2015-05-31 17:00:34  [ nioEventLoopGroup-2-1:142 ] - [ INFO ]  channelRegistered
+2015-05-31 17:00:34  [ nioEventLoopGroup-2-1:156 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-05-31 17:00:34  [ pool-1-thread-1:159 ] - [ INFO ]  Connected to server successfully.
+2015-05-31 17:00:34  [ pool-1-thread-1:159 ] - [ INFO ]  runTask()...
+2015-05-31 17:00:34  [ pool-1-thread-1:159 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:00:34  [ pool-1-thread-1:160 ] - [ INFO ]  runTask()...done
+2015-05-31 17:00:34  [ pool-1-thread-1:160 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:00:39  [ pool-1-thread-1:5228 ] - [ INFO ]  LoginError:server error
+2015-05-31 17:00:39  [ pool-1-thread-1:5228 ] - [ INFO ]  runTask()...
+2015-05-31 17:00:39  [ pool-1-thread-1:5229 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:00:39  [ Reconnection Thread.:5229 ] - [ INFO ]  The 0 time to reconnect,trying to reconnect in 10 seconds
+2015-05-31 17:00:39  [ pool-1-thread-1:5229 ] - [ INFO ]  runTask()...done
+2015-05-31 17:00:49  [ Reconnection Thread.:15229 ] - [ INFO ]  connect()...
+2015-05-31 17:00:49  [ Reconnection Thread.:15229 ] - [ INFO ]  addTask()...
+2015-05-31 17:00:49  [ Reconnection Thread.:15229 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:00:49  [ Reconnection Thread.:15229 ] - [ INFO ]  addTask()...done
+2015-05-31 17:00:49  [ pool-1-thread-1:15229 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:00:49  [ Reconnection Thread.:15229 ] - [ INFO ]  addTask()...
+2015-05-31 17:00:49  [ pool-1-thread-1:15230 ] - [ INFO ]  Connected to server already.
+2015-05-31 17:00:49  [ pool-1-thread-1:15230 ] - [ INFO ]  runTask()...
+2015-05-31 17:00:49  [ Reconnection Thread.:15230 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:00:49  [ pool-1-thread-1:15231 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:00:49  [ Reconnection Thread.:15231 ] - [ INFO ]  addTask()...done
+2015-05-31 17:00:49  [ Reconnection Thread.:15231 ] - [ INFO ]  connect() done...
+2015-05-31 17:00:49  [ pool-1-thread-1:15231 ] - [ INFO ]  runTask()...done
+2015-05-31 17:00:49  [ Reconnection Thread.:15231 ] - [ INFO ]  The 1 time to reconnect,trying to reconnect in 10 seconds
+2015-05-31 17:00:49  [ pool-1-thread-1:15231 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:00:54  [ pool-1-thread-1:20233 ] - [ INFO ]  LoginError:server error
+2015-05-31 17:00:54  [ pool-1-thread-1:20233 ] - [ INFO ]  runTask()...
+2015-05-31 17:00:54  [ pool-1-thread-1:20233 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:00:54  [ pool-1-thread-1:20233 ] - [ INFO ]  runTask()...done
+2015-05-31 17:00:59  [ Reconnection Thread.:25232 ] - [ INFO ]  connect()...
+2015-05-31 17:00:59  [ Reconnection Thread.:25232 ] - [ INFO ]  addTask()...
+2015-05-31 17:00:59  [ Reconnection Thread.:25232 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:00:59  [ Reconnection Thread.:25232 ] - [ INFO ]  addTask()...done
+2015-05-31 17:00:59  [ Reconnection Thread.:25232 ] - [ INFO ]  addTask()...
+2015-05-31 17:00:59  [ Reconnection Thread.:25232 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:00:59  [ pool-1-thread-1:25232 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:00:59  [ pool-1-thread-1:25233 ] - [ INFO ]  Connected to server already.
+2015-05-31 17:00:59  [ pool-1-thread-1:25233 ] - [ INFO ]  runTask()...
+2015-05-31 17:00:59  [ pool-1-thread-1:25233 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:00:59  [ pool-1-thread-1:25233 ] - [ INFO ]  runTask()...done
+2015-05-31 17:00:59  [ pool-1-thread-1:25233 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:00:59  [ Reconnection Thread.:25233 ] - [ INFO ]  addTask()...done
+2015-05-31 17:00:59  [ Reconnection Thread.:25234 ] - [ INFO ]  connect() done...
+2015-05-31 17:00:59  [ Reconnection Thread.:25234 ] - [ INFO ]  The 2 time to reconnect,trying to reconnect in 10 seconds
+2015-05-31 17:01:04  [ nioEventLoopGroup-2-1:30206 ] - [ INFO ]  At time : 17:01:04 ,recevie the PING.
+2015-05-31 17:01:04  [ pool-1-thread-1:30235 ] - [ INFO ]  LoginError:server error
+2015-05-31 17:01:04  [ pool-1-thread-1:30235 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:04  [ pool-1-thread-1:30235 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:01:04  [ pool-1-thread-1:30235 ] - [ INFO ]  runTask()...done
+2015-05-31 17:01:09  [ Reconnection Thread.:35234 ] - [ INFO ]  connect()...
+2015-05-31 17:01:09  [ Reconnection Thread.:35234 ] - [ INFO ]  addTask()...
+2015-05-31 17:01:09  [ Reconnection Thread.:35234 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:01:09  [ Reconnection Thread.:35234 ] - [ INFO ]  addTask()...done
+2015-05-31 17:01:09  [ Reconnection Thread.:35234 ] - [ INFO ]  addTask()...
+2015-05-31 17:01:09  [ Reconnection Thread.:35234 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:01:09  [ pool-1-thread-1:35234 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:01:09  [ pool-1-thread-1:35235 ] - [ INFO ]  Connected to server already.
+2015-05-31 17:01:09  [ pool-1-thread-1:35235 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:09  [ pool-1-thread-1:35235 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:01:09  [ pool-1-thread-1:35235 ] - [ INFO ]  runTask()...done
+2015-05-31 17:01:09  [ pool-1-thread-1:35236 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:01:09  [ Reconnection Thread.:35235 ] - [ INFO ]  addTask()...done
+2015-05-31 17:01:09  [ Reconnection Thread.:35236 ] - [ INFO ]  connect() done...
+2015-05-31 17:01:09  [ Reconnection Thread.:35236 ] - [ INFO ]  The 3 time to reconnect,trying to reconnect in 10 seconds
+2015-05-31 17:01:14  [ pool-1-thread-1:40238 ] - [ INFO ]  LoginError:server error
+2015-05-31 17:01:14  [ pool-1-thread-1:40238 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:14  [ pool-1-thread-1:40238 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:01:14  [ pool-1-thread-1:40238 ] - [ INFO ]  runTask()...done
+2015-05-31 17:01:19  [ Reconnection Thread.:45237 ] - [ INFO ]  connect()...
+2015-05-31 17:01:19  [ Reconnection Thread.:45237 ] - [ INFO ]  addTask()...
+2015-05-31 17:01:19  [ Reconnection Thread.:45237 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:01:19  [ Reconnection Thread.:45237 ] - [ INFO ]  addTask()...done
+2015-05-31 17:01:19  [ pool-1-thread-1:45237 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:01:19  [ Reconnection Thread.:45237 ] - [ INFO ]  addTask()...
+2015-05-31 17:01:19  [ Reconnection Thread.:45238 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:01:19  [ Reconnection Thread.:45238 ] - [ INFO ]  addTask()...done
+2015-05-31 17:01:19  [ Reconnection Thread.:45238 ] - [ INFO ]  connect() done...
+2015-05-31 17:01:19  [ Reconnection Thread.:45238 ] - [ INFO ]  The 4 time to reconnect,trying to reconnect in 10 seconds
+2015-05-31 17:01:19  [ pool-1-thread-1:45238 ] - [ INFO ]  Connected to server already.
+2015-05-31 17:01:19  [ pool-1-thread-1:45239 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:19  [ pool-1-thread-1:45239 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:01:19  [ pool-1-thread-1:45239 ] - [ INFO ]  runTask()...done
+2015-05-31 17:01:19  [ pool-1-thread-1:45239 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:01:24  [ pool-1-thread-1:50240 ] - [ INFO ]  LoginError:server error
+2015-05-31 17:01:24  [ pool-1-thread-1:50240 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:24  [ pool-1-thread-1:50240 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:01:24  [ pool-1-thread-1:50240 ] - [ INFO ]  runTask()...done
+2015-05-31 17:01:28  [ nioEventLoopGroup-2-1:53959 ] - [ INFO ]  process ackMsg
+2015-05-31 17:01:29  [ Reconnection Thread.:55238 ] - [ INFO ]  connect()...
+2015-05-31 17:01:29  [ Reconnection Thread.:55238 ] - [ INFO ]  addTask()...
+2015-05-31 17:01:29  [ Reconnection Thread.:55238 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:01:29  [ Reconnection Thread.:55238 ] - [ INFO ]  addTask()...done
+2015-05-31 17:01:29  [ pool-1-thread-1:55238 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:01:29  [ pool-1-thread-1:55238 ] - [ INFO ]  Connected to server already.
+2015-05-31 17:01:29  [ Reconnection Thread.:55238 ] - [ INFO ]  addTask()...
+2015-05-31 17:01:29  [ Reconnection Thread.:55239 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:01:29  [ Reconnection Thread.:55239 ] - [ INFO ]  addTask()...done
+2015-05-31 17:01:29  [ Reconnection Thread.:55239 ] - [ INFO ]  connect() done...
+2015-05-31 17:01:29  [ pool-1-thread-1:55239 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:29  [ Reconnection Thread.:55239 ] - [ INFO ]  The 5 time to reconnect,trying to reconnect in 10 seconds
+2015-05-31 17:01:29  [ pool-1-thread-1:55240 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:01:29  [ pool-1-thread-1:55240 ] - [ INFO ]  runTask()...done
+2015-05-31 17:01:29  [ pool-1-thread-1:55240 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:01:29  [ nioEventLoopGroup-2-1:55244 ] - [ INFO ]  process ackMsg
+2015-05-31 17:01:29  [ pool-1-thread-1:55247 ] - [ INFO ]  LonginError:username or pwd was wrong
+2015-05-31 17:01:29  [ pool-1-thread-1:55248 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:29  [ pool-1-thread-1:55248 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:01:29  [ pool-1-thread-1:55248 ] - [ INFO ]  runTask()...done
+2015-05-31 17:01:29  [ nioEventLoopGroup-2-1:55485 ] - [ INFO ]  process ackMsg
+2015-05-31 17:01:30  [ nioEventLoopGroup-2-1:56470 ] - [ INFO ]  process ackMsg
+2015-05-31 17:01:31  [ nioEventLoopGroup-2-1:57023 ] - [ INFO ]  process ackMsg
+2015-05-31 17:01:32  [ nioEventLoopGroup-2-1:57542 ] - [ INFO ]  process ackMsg
+2015-05-31 17:01:39  [ Reconnection Thread.:65241 ] - [ INFO ]  connect()...
+2015-05-31 17:01:39  [ Reconnection Thread.:65241 ] - [ INFO ]  addTask()...
+2015-05-31 17:01:39  [ Reconnection Thread.:65241 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:01:39  [ Reconnection Thread.:65241 ] - [ INFO ]  addTask()...done
+2015-05-31 17:01:39  [ pool-1-thread-1:65241 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:01:39  [ pool-1-thread-1:65241 ] - [ INFO ]  Connected to server already.
+2015-05-31 17:01:39  [ Reconnection Thread.:65241 ] - [ INFO ]  addTask()...
+2015-05-31 17:01:39  [ Reconnection Thread.:65242 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:01:39  [ Reconnection Thread.:65242 ] - [ INFO ]  addTask()...done
+2015-05-31 17:01:39  [ Reconnection Thread.:65242 ] - [ INFO ]  connect() done...
+2015-05-31 17:01:39  [ Reconnection Thread.:65242 ] - [ INFO ]  The 6 time to reconnect,trying to reconnect in 10 seconds
+2015-05-31 17:01:39  [ pool-1-thread-1:65242 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:39  [ pool-1-thread-1:65242 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:01:39  [ pool-1-thread-1:65243 ] - [ INFO ]  runTask()...done
+2015-05-31 17:01:39  [ pool-1-thread-1:65243 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:01:39  [ nioEventLoopGroup-2-1:65252 ] - [ INFO ]  process ackMsg
+2015-05-31 17:01:39  [ pool-1-thread-1:65254 ] - [ INFO ]  LonginError:username or pwd was wrong
+2015-05-31 17:01:39  [ pool-1-thread-1:65254 ] - [ INFO ]  runTask()...
+2015-05-31 17:01:39  [ pool-1-thread-1:65261 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:01:39  [ pool-1-thread-1:65261 ] - [ INFO ]  runTask()...done
+2015-05-31 17:07:55  [ main:0 ] - [ INFO ]  connect()...
+2015-05-31 17:07:55  [ main:3 ] - [ INFO ]  addTask()...
+2015-05-31 17:07:55  [ main:3 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:07:55  [ main:3 ] - [ INFO ]  addTask()...done
+2015-05-31 17:07:55  [ pool-1-thread-1:3 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:07:55  [ main:5 ] - [ INFO ]  addTask()...
+2015-05-31 17:07:55  [ main:5 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:07:55  [ main:5 ] - [ INFO ]  addTask()...done
+2015-05-31 17:07:55  [ main:5 ] - [ INFO ]  connect() done...
+2015-05-31 17:07:55  [ nioEventLoopGroup-2-1:142 ] - [ INFO ]  channelRegistered
+2015-05-31 17:07:56  [ pool-1-thread-1:1143 ] - [ INFO ]  Connect failed,cause message:Connection refused: no further information: /127.0.0.1:8007
+2015-05-31 17:07:56  [ pool-1-thread-1:1144 ] - [ INFO ]  runTask()...
+2015-05-31 17:07:56  [ nioEventLoopGroup-2-1:1144 ] - [ INFO ]  channelUnregistered
+2015-05-31 17:07:56  [ pool-1-thread-1:1144 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:07:56  [ pool-1-thread-1:1148 ] - [ INFO ]  runTask()...done
+2015-05-31 17:07:56  [ pool-1-thread-1:1148 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:07:56  [ pool-1-thread-1:1151 ] - [ INFO ]  runTask()...
+2015-05-31 17:07:56  [ pool-1-thread-1:1151 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:07:56  [ pool-1-thread-1:1151 ] - [ INFO ]  runTask()...done
+2015-05-31 17:08:53  [ main:0 ] - [ INFO ]  connect()...
+2015-05-31 17:08:53  [ main:2 ] - [ INFO ]  addTask()...
+2015-05-31 17:08:53  [ main:2 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:08:53  [ main:3 ] - [ INFO ]  addTask()...done
+2015-05-31 17:08:53  [ pool-1-thread-1:3 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:08:53  [ main:4 ] - [ INFO ]  addTask()...
+2015-05-31 17:08:53  [ main:4 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:08:53  [ main:4 ] - [ INFO ]  addTask()...done
+2015-05-31 17:08:53  [ main:4 ] - [ INFO ]  connect() done...
+2015-05-31 17:08:53  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  channelRegistered
+2015-05-31 17:08:53  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-05-31 17:08:53  [ pool-1-thread-1:132 ] - [ INFO ]  Connected to server successfully.
+2015-05-31 17:08:53  [ pool-1-thread-1:133 ] - [ INFO ]  runTask()...
+2015-05-31 17:08:53  [ pool-1-thread-1:133 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:08:53  [ pool-1-thread-1:133 ] - [ INFO ]  runTask()...done
+2015-05-31 17:08:53  [ pool-1-thread-1:133 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:08:53  [ nioEventLoopGroup-2-1:511 ] - [ INFO ]  process ackMsg
+2015-05-31 17:08:53  [ pool-1-thread-1:513 ] - [ INFO ]  runTask()...
+2015-05-31 17:08:53  [ pool-1-thread-1:513 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:08:53  [ pool-1-thread-1:513 ] - [ INFO ]  runTask()...done
+2015-05-31 17:08:54  [ nioEventLoopGroup-2-1:1495 ] - [ INFO ]  process pnMsg
+2015-05-31 17:08:54  [ nioEventLoopGroup-2-1:1495 ] - [ INFO ]  process pnMsg
+2015-05-31 17:08:54  [ nioEventLoopGroup-2-1:1496 ] - [ INFO ]  process pnMsg
+2015-05-31 17:08:54  [ nioEventLoopGroup-2-1:1496 ] - [ INFO ]  process pnMsg
+2015-05-31 17:08:54  [ nioEventLoopGroup-2-1:1496 ] - [ INFO ]  process pnMsg
+2015-05-31 17:08:54  [ nioEventLoopGroup-2-1:1496 ] - [ INFO ]  process pnMsg
+2015-05-31 17:08:54  [ Listener Porcessor:1498 ] - [ INFO ]  msgId : 15007-1234567 title: ������
+2015-05-31 17:08:54  [ Listener Porcessor:1499 ] - [ INFO ]  msgId : 20005-1234567 title: �ܺ�
+2015-05-31 17:08:54  [ Listener Porcessor:1500 ] - [ INFO ]  msgId : 20006-1234567 title: �ܺ�2
+2015-05-31 17:08:54  [ Listener Porcessor:1501 ] - [ INFO ]  msgId : 20007-1234567 title: ����ͦ��
+2015-05-31 17:08:54  [ Listener Porcessor:1502 ] - [ INFO ]  msgId : 20008-1234567 title: ϲ��yq����
+2015-05-31 17:08:54  [ Listener Porcessor:1503 ] - [ INFO ]  msgId : 20009-1234567 title: ������
+2015-05-31 17:09:23  [ nioEventLoopGroup-2-1:30216 ] - [ INFO ]  At time : 17:09:23 ,to send the PING.
+2015-05-31 17:09:23  [ nioEventLoopGroup-2-1:30218 ] - [ INFO ]  At time : 17:09:23 ,received PONG from client.
+2015-05-31 17:12:39  [ main:0 ] - [ INFO ]  connect()...
+2015-05-31 17:12:39  [ main:2 ] - [ INFO ]  addTask()...
+2015-05-31 17:12:39  [ main:2 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:12:39  [ main:3 ] - [ INFO ]  addTask()...done
+2015-05-31 17:12:39  [ pool-1-thread-1:3 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:12:39  [ main:4 ] - [ INFO ]  addTask()...
+2015-05-31 17:12:39  [ main:5 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:12:39  [ main:5 ] - [ INFO ]  addTask()...done
+2015-05-31 17:12:39  [ main:5 ] - [ INFO ]  connect() done...
+2015-05-31 17:12:39  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  channelRegistered
+2015-05-31 17:12:39  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-05-31 17:12:39  [ pool-1-thread-1:135 ] - [ INFO ]  Connected to server successfully.
+2015-05-31 17:12:39  [ pool-1-thread-1:135 ] - [ INFO ]  runTask()...
+2015-05-31 17:12:39  [ pool-1-thread-1:136 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:12:39  [ pool-1-thread-1:136 ] - [ INFO ]  runTask()...done
+2015-05-31 17:12:39  [ pool-1-thread-1:136 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:12:40  [ nioEventLoopGroup-2-1:510 ] - [ INFO ]  process ackMsg
+2015-05-31 17:12:40  [ pool-1-thread-1:512 ] - [ INFO ]  runTask()...
+2015-05-31 17:12:40  [ pool-1-thread-1:512 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:12:40  [ pool-1-thread-1:512 ] - [ INFO ]  runTask()...done
+2015-05-31 17:12:41  [ nioEventLoopGroup-2-1:1499 ] - [ INFO ]  process pnMsg
+2015-05-31 17:12:41  [ nioEventLoopGroup-2-1:1504 ] - [ INFO ]  process pnMsg
+2015-05-31 17:12:41  [ nioEventLoopGroup-2-1:1505 ] - [ INFO ]  process pnMsg
+2015-05-31 17:12:41  [ nioEventLoopGroup-2-1:1505 ] - [ INFO ]  process pnMsg
+2015-05-31 17:12:41  [ nioEventLoopGroup-2-1:1505 ] - [ INFO ]  process pnMsg
+2015-05-31 17:12:41  [ nioEventLoopGroup-2-1:1506 ] - [ INFO ]  process pnMsg
+2015-05-31 17:12:41  [ Listener Porcessor:1507 ] - [ INFO ]  msgId : 15007-1234567 title: 鑳栧瓙鑳�
+2015-05-31 17:12:41  [ Listener Porcessor:1508 ] - [ INFO ]  msgId : 20005-1234567 title: 寰堝ソ
+2015-05-31 17:12:41  [ Listener Porcessor:1510 ] - [ INFO ]  msgId : 20006-1234567 title: 寰堝ソ2
+2015-05-31 17:12:41  [ Listener Porcessor:1512 ] - [ INFO ]  msgId : 20007-1234567 title: 鍋ヨ韩鎸哄ソ
+2015-05-31 17:12:41  [ Listener Porcessor:1513 ] - [ INFO ]  msgId : 20008-1234567 title: 鍠滄yq鐨勪汉
+2015-05-31 17:12:41  [ Listener Porcessor:1514 ] - [ INFO ]  msgId : 20009-1234567 title: 鑳栧瓙鑳�
+2015-05-31 17:13:09  [ nioEventLoopGroup-2-1:30212 ] - [ INFO ]  At time : 17:13:09 ,to send the PING.
+2015-05-31 17:13:09  [ nioEventLoopGroup-2-1:30214 ] - [ INFO ]  At time : 17:13:09 ,received PONG from client.
+2015-05-31 17:18:59  [ main:0 ] - [ INFO ]  connect()...
+2015-05-31 17:18:59  [ main:2 ] - [ INFO ]  addTask()...
+2015-05-31 17:18:59  [ main:2 ] - [ INFO ]  Incremented task count to 1
+2015-05-31 17:18:59  [ main:3 ] - [ INFO ]  addTask()...done
+2015-05-31 17:18:59  [ pool-1-thread-1:3 ] - [ INFO ]  ConnectTask.run()...
+2015-05-31 17:18:59  [ main:4 ] - [ INFO ]  addTask()...
+2015-05-31 17:18:59  [ main:4 ] - [ INFO ]  Incremented task count to 2
+2015-05-31 17:18:59  [ main:4 ] - [ INFO ]  addTask()...done
+2015-05-31 17:18:59  [ main:5 ] - [ INFO ]  connect() done...
+2015-05-31 17:18:59  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  channelRegistered
+2015-05-31 17:18:59  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  the channelActive in IMServerMsgHandler is called
+2015-05-31 17:18:59  [ pool-1-thread-1:132 ] - [ INFO ]  Connected to server successfully.
+2015-05-31 17:18:59  [ pool-1-thread-1:132 ] - [ INFO ]  runTask()...
+2015-05-31 17:18:59  [ pool-1-thread-1:132 ] - [ INFO ]  Decremented task count to 1
+2015-05-31 17:18:59  [ pool-1-thread-1:132 ] - [ INFO ]  runTask()...done
+2015-05-31 17:18:59  [ pool-1-thread-1:132 ] - [ INFO ]  LoginTask.run()...
+2015-05-31 17:18:59  [ nioEventLoopGroup-2-1:212 ] - [ INFO ]  process ackMsg
+2015-05-31 17:18:59  [ pool-1-thread-1:214 ] - [ INFO ]  runTask()...
+2015-05-31 17:18:59  [ pool-1-thread-1:214 ] - [ INFO ]  Decremented task count to 0
+2015-05-31 17:18:59  [ pool-1-thread-1:214 ] - [ INFO ]  runTask()...done
+2015-05-31 17:19:00  [ nioEventLoopGroup-2-1:1206 ] - [ INFO ]  process pnMsg
+2015-05-31 17:19:00  [ nioEventLoopGroup-2-1:1207 ] - [ INFO ]  process pnMsg
+2015-05-31 17:19:00  [ Listener Porcessor:1207 ] - [ INFO ]  msgId : 15007-1234567 title: 胖子胖
+2015-05-31 17:19:00  [ nioEventLoopGroup-2-1:1207 ] - [ INFO ]  process pnMsg
+2015-05-31 17:19:00  [ nioEventLoopGroup-2-1:1207 ] - [ INFO ]  process pnMsg
+2015-05-31 17:19:00  [ nioEventLoopGroup-2-1:1208 ] - [ INFO ]  process pnMsg
+2015-05-31 17:19:00  [ nioEventLoopGroup-2-1:1208 ] - [ INFO ]  process pnMsg
+2015-05-31 17:19:00  [ Listener Porcessor:1211 ] - [ INFO ]  msgId : 20005-1234567 title: 很好
+2015-05-31 17:19:00  [ Listener Porcessor:1213 ] - [ INFO ]  msgId : 20006-1234567 title: 很好2
+2015-05-31 17:19:00  [ Listener Porcessor:1214 ] - [ INFO ]  msgId : 20007-1234567 title: 健身挺好
+2015-05-31 17:19:00  [ Listener Porcessor:1215 ] - [ INFO ]  msgId : 20008-1234567 title: 喜欢yq的人
+2015-05-31 17:19:00  [ Listener Porcessor:1216 ] - [ INFO ]  msgId : 20009-1234567 title: 胖子胖
+2015-05-31 17:19:29  [ nioEventLoopGroup-2-1:30201 ] - [ INFO ]  At time : 17:19:29 ,to send the PING.
+2015-05-31 17:19:29  [ nioEventLoopGroup-2-1:30202 ] - [ INFO ]  At time : 17:19:29 ,received PONG from client.
